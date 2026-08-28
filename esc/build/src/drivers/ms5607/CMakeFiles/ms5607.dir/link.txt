@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libms5607.a CMakeFiles/ms5607.dir/ms5607.c.obj CMakeFiles/ms5607.dir/ms5607_i2c.c.obj CMakeFiles/ms5607.dir/ms5607_spi.c.obj
+/usr/bin/arm-none-eabi-ranlib libms5607.a

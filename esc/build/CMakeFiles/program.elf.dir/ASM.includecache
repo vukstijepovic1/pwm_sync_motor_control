@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vuk/Documents/BTP/alex test/pwm_sync/esc/devices/lpc1768/startup.S
+devconf.h
+/home/vuk/Documents/BTP/alex test/pwm_sync/esc/devices/lpc1768/devconf.h
+

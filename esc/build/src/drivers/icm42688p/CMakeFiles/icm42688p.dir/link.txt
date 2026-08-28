@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libicm42688p.a CMakeFiles/icm42688p.dir/icm42688p_spi.c.obj CMakeFiles/icm42688p.dir/icm42688p.c.obj
+/usr/bin/arm-none-eabi-ranlib libicm42688p.a

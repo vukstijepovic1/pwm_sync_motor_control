@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libudp.a CMakeFiles/udp.dir/udp_crc.c.obj CMakeFiles/udp.dir/udp.c.obj
+/usr/bin/arm-none-eabi-ranlib libudp.a

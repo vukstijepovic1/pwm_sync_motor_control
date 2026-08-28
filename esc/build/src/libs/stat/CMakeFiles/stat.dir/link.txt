@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libstat.a CMakeFiles/stat.dir/stat.c.obj
+/usr/bin/arm-none-eabi-ranlib libstat.a

@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libtl.a CMakeFiles/tl.dir/tl_common.c.obj
+/usr/bin/arm-none-eabi-ranlib libtl.a

@@ -1,0 +1,69 @@
+/**
+ * @file    ulog_optical_flow.h
+ * @brief   This file is auto-generated using ulog_gen.py
+ * @author  LisumLab
+ */
+
+#ifndef ULOG_OPTICAL_FLOW_H
+#define ULOG_OPTICAL_FLOW_H
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include <stdint.h>
+
+#include "ulog.h"
+
+typedef struct ulog_optical_flow_t {
+    uint64_t timestamp; /* Timestamp [us] */
+    uint64_t time_usec; /* Timestamp (UNIX Epoch time or time since system boot). The receiving end can infer timestamp format (since 1.1.1970 or since system boot) by checking for the magnitude of the number. [us] */
+    uint8_t sensor_id; /* Sensor ID */
+    int16_t flow_x; /* Flow in x-sensor direction [dpix] */
+    int16_t flow_y; /* Flow in y-sensor direction [dpix] */
+    float flow_comp_m_x; /* Flow in x-sensor direction, angular-speed compensated [m/s] */
+    float flow_comp_m_y; /* Flow in y-sensor direction, angular-speed compensated [m/s] */
+    uint8_t quality; /* Optical flow quality / confidence. 0: bad, 255: maximum quality */
+    float ground_distance; /* Ground distance. Positive value: distance known. Negative value: Unknown distance [m] */
+    float flow_rate_x; /* Flow rate about X axis [rad/s] */
+    float flow_rate_y; /* Flow rate about Y axis [rad/s] */
+    
+} ulog_optical_flow_t;
+
+/**
+ * Defines Optical Flow message name and its inner fields in a single string.
+ *
+ * @param[in] log ULog struct.
+ * @return 0 for successful operation.
+ * @return Non 0 otherwise.
+ */
+int32_t ulog_format_optical_flow(ulog_t *log);
+
+/**
+ * Subscribe Optical Flow message by name and give it and id that is used in Logged data Message.
+ * This must come before the first corresponding Logged data Message.
+ *
+ * @param[in] log ULog struct.
+ * @param[in] multi_id Message instance.
+ * @param[out] id Message ID assigned to subscribed message.
+ * @return 0 for successful operation.
+ * @return Non 0 otherwise.
+ */
+int32_t ulog_subscribe_optical_flow(ulog_t *log, uint8_t multi_id, uint16_t *id);
+
+/**
+ * Write Optical Flow message data.
+ *
+ * @param[in] log ULog struct.
+ * @param[in] id Message ID.
+ * @param[in] src Message Data.
+ * @return 0 for successful operation.
+ * @return Non 0 otherwise.
+ */
+int32_t ulog_write_optical_flow(ulog_t *log, ulog_msg_id_t id, const ulog_optical_flow_t *src);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* ULOG_OPTICAL_FLOW_H */

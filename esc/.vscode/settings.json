@@ -1,0 +1,7 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "canopen.h": "c",
+        "common.h": "c"
+    }
+}

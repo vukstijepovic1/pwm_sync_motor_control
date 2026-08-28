@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libbms.a CMakeFiles/bms.dir/bms.c.obj
+/usr/bin/arm-none-eabi-ranlib libbms.a

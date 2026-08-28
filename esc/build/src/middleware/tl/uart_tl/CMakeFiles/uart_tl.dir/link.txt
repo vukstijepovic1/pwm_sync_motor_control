@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libuart_tl.a CMakeFiles/uart_tl.dir/uart_tl.c.obj
+/usr/bin/arm-none-eabi-ranlib libuart_tl.a

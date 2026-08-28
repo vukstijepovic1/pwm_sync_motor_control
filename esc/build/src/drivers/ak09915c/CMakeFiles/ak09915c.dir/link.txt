@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libak09915c.a CMakeFiles/ak09915c.dir/ak09915c.c.obj CMakeFiles/ak09915c.dir/ak09915c_i2c.c.obj CMakeFiles/ak09915c.dir/ak09915c_spi.c.obj
+/usr/bin/arm-none-eabi-ranlib libak09915c.a

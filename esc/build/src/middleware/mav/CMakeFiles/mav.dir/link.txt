@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libmav.a CMakeFiles/mav.dir/mav.c.obj CMakeFiles/mav.dir/mavlink_wrapper.c.obj
+/usr/bin/arm-none-eabi-ranlib libmav.a

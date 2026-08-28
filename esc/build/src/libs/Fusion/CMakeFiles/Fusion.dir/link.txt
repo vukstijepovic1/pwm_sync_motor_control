@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libFusion.a CMakeFiles/Fusion.dir/Fusion/Fusion/FusionAhrs.c.obj CMakeFiles/Fusion.dir/Fusion/Fusion/FusionCompass.c.obj CMakeFiles/Fusion.dir/Fusion/Fusion/FusionOffset.c.obj
+/usr/bin/arm-none-eabi-ranlib libFusion.a
