@@ -1,0 +1,1 @@
+alex testiranje, patjon skripte se nalaze unutra sve korsine, kao i logovi koji se u njoj cuvaju, metod upravljanja je objasnjen u dokumentaicji za dronecan. Verzija sa 3kde i 1 vescom nije testirana trebalo bi motor podesiti da se slaze sa ostalima. DOkumentacija za vesc je objasnjena u drugim repozitorijumima
