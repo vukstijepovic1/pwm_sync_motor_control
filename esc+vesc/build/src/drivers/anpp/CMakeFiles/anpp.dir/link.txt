@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libanpp.a CMakeFiles/anpp.dir/anpp_common.c.obj CMakeFiles/anpp.dir/anpp.c.obj
+/usr/bin/arm-none-eabi-ranlib libanpp.a

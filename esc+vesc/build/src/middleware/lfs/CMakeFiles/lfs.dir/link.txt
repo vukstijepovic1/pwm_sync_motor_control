@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc liblfs.a CMakeFiles/lfs.dir/littlefs/lfs.c.obj CMakeFiles/lfs.dir/littlefs/lfs_util.c.obj
+/usr/bin/arm-none-eabi-ranlib liblfs.a

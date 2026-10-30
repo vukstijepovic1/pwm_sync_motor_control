@@ -2507,6 +2507,30 @@ __/__/__/ulog/ulog_link_node_status.c.s:
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_link_node_status.c.s
 .PHONY : __/__/__/ulog/ulog_link_node_status.c.s
 
+__/__/__/ulog/ulog_lisum_esc_status.obj: __/__/__/ulog/ulog_lisum_esc_status.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_esc_status.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_esc_status.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_esc_status.c.obj
+
+__/__/__/ulog/ulog_lisum_esc_status.i: __/__/__/ulog/ulog_lisum_esc_status.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_esc_status.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_esc_status.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_esc_status.c.i
+
+__/__/__/ulog/ulog_lisum_esc_status.s: __/__/__/ulog/ulog_lisum_esc_status.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_esc_status.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_esc_status.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_esc_status.c.s
+
 __/__/__/ulog/ulog_lisum_gnss_recv_data.obj: __/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj
 .PHONY : __/__/__/ulog/ulog_lisum_gnss_recv_data.obj
 
@@ -2627,6 +2651,30 @@ __/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.s:
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.s
 .PHONY : __/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.s
 
+__/__/__/ulog/ulog_lisum_propulsion_tb_status.obj: __/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_propulsion_tb_status.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj
+
+__/__/__/ulog/ulog_lisum_propulsion_tb_status.i: __/__/__/ulog/ulog_lisum_propulsion_tb_status.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_propulsion_tb_status.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_propulsion_tb_status.c.i
+
+__/__/__/ulog/ulog_lisum_propulsion_tb_status.s: __/__/__/ulog/ulog_lisum_propulsion_tb_status.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_propulsion_tb_status.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_propulsion_tb_status.c.s
+
 __/__/__/ulog/ulog_lisum_sensor_airspeed_data.obj: __/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj
 .PHONY : __/__/__/ulog/ulog_lisum_sensor_airspeed_data.obj
 
@@ -2650,6 +2698,294 @@ __/__/__/ulog/ulog_lisum_sensor_airspeed_data.s: __/__/__/ulog/ulog_lisum_sensor
 __/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.s:
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.s
 .PHONY : __/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_ping.obj: __/__/__/ulog/ulog_lisum_vesc_ping.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_ping.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_ping.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_ping.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_ping.i: __/__/__/ulog/ulog_lisum_vesc_ping.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_ping.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_ping.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_ping.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_ping.s: __/__/__/ulog/ulog_lisum_vesc_ping.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_ping.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_ping.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_ping.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_set_current.obj: __/__/__/ulog/ulog_lisum_vesc_set_current.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_set_current.i: __/__/__/ulog/ulog_lisum_vesc_set_current.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_set_current.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_set_current.s: __/__/__/ulog/ulog_lisum_vesc_set_current.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_set_current.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_set_current_brake.obj: __/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current_brake.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_set_current_brake.i: __/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current_brake.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_set_current_brake.s: __/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current_brake.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_set_duty.obj: __/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_duty.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_set_duty.i: __/__/__/ulog/ulog_lisum_vesc_set_duty.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_duty.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_set_duty.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_duty.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_set_duty.s: __/__/__/ulog/ulog_lisum_vesc_set_duty.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_duty.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_set_duty.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_duty.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_set_pos.obj: __/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_pos.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_set_pos.i: __/__/__/ulog/ulog_lisum_vesc_set_pos.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_pos.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_set_pos.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_pos.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_set_pos.s: __/__/__/ulog/ulog_lisum_vesc_set_pos.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_pos.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_set_pos.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_pos.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_set_rpm.obj: __/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_rpm.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_set_rpm.i: __/__/__/ulog/ulog_lisum_vesc_set_rpm.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_rpm.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_rpm.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_set_rpm.s: __/__/__/ulog/ulog_lisum_vesc_set_rpm.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_rpm.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_set_rpm.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_status_1.obj: __/__/__/ulog/ulog_lisum_vesc_status_1.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_1.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_1.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_status_1.i: __/__/__/ulog/ulog_lisum_vesc_status_1.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_1.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_status_1.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_1.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_status_1.s: __/__/__/ulog/ulog_lisum_vesc_status_1.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_1.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_status_1.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_1.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_status_2.obj: __/__/__/ulog/ulog_lisum_vesc_status_2.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_2.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_2.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_status_2.i: __/__/__/ulog/ulog_lisum_vesc_status_2.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_2.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_status_2.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_2.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_status_2.s: __/__/__/ulog/ulog_lisum_vesc_status_2.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_2.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_status_2.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_2.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_status_3.obj: __/__/__/ulog/ulog_lisum_vesc_status_3.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_3.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_3.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_status_3.i: __/__/__/ulog/ulog_lisum_vesc_status_3.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_3.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_status_3.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_3.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_status_3.s: __/__/__/ulog/ulog_lisum_vesc_status_3.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_3.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_status_3.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_3.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_status_4.obj: __/__/__/ulog/ulog_lisum_vesc_status_4.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_4.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_4.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_status_4.i: __/__/__/ulog/ulog_lisum_vesc_status_4.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_4.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_status_4.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_4.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_status_4.s: __/__/__/ulog/ulog_lisum_vesc_status_4.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_4.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_status_4.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_4.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_status_5.obj: __/__/__/ulog/ulog_lisum_vesc_status_5.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_5.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_5.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_status_5.i: __/__/__/ulog/ulog_lisum_vesc_status_5.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_5.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_status_5.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_5.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_status_5.s: __/__/__/ulog/ulog_lisum_vesc_status_5.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_5.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_status_5.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_5.c.s
+
+__/__/__/ulog/ulog_lisum_vesc_status_6.obj: __/__/__/ulog/ulog_lisum_vesc_status_6.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_6.obj
+
+# target to build an object file
+__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_6.c.obj
+
+__/__/__/ulog/ulog_lisum_vesc_status_6.i: __/__/__/ulog/ulog_lisum_vesc_status_6.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_6.i
+
+# target to preprocess a source file
+__/__/__/ulog/ulog_lisum_vesc_status_6.c.i:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.i
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_6.c.i
+
+__/__/__/ulog/ulog_lisum_vesc_status_6.s: __/__/__/ulog/ulog_lisum_vesc_status_6.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_6.s
+
+# target to generate assembly for a file
+__/__/__/ulog/ulog_lisum_vesc_status_6.c.s:
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build" && $(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.s
+.PHONY : __/__/__/ulog/ulog_lisum_vesc_status_6.c.s
 
 __/__/__/ulog/ulog_local_position_ned.obj: __/__/__/ulog/ulog_local_position_ned.c.obj
 .PHONY : __/__/__/ulog/ulog_local_position_ned.obj
@@ -6077,6 +6413,9 @@ help:
 	@echo "... __/__/__/ulog/ulog_link_node_status.obj"
 	@echo "... __/__/__/ulog/ulog_link_node_status.i"
 	@echo "... __/__/__/ulog/ulog_link_node_status.s"
+	@echo "... __/__/__/ulog/ulog_lisum_esc_status.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_esc_status.i"
+	@echo "... __/__/__/ulog/ulog_lisum_esc_status.s"
 	@echo "... __/__/__/ulog/ulog_lisum_gnss_recv_data.obj"
 	@echo "... __/__/__/ulog/ulog_lisum_gnss_recv_data.i"
 	@echo "... __/__/__/ulog/ulog_lisum_gnss_recv_data.s"
@@ -6092,9 +6431,48 @@ help:
 	@echo "... __/__/__/ulog/ulog_lisum_power_motor_scaled_data.obj"
 	@echo "... __/__/__/ulog/ulog_lisum_power_motor_scaled_data.i"
 	@echo "... __/__/__/ulog/ulog_lisum_power_motor_scaled_data.s"
+	@echo "... __/__/__/ulog/ulog_lisum_propulsion_tb_status.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_propulsion_tb_status.i"
+	@echo "... __/__/__/ulog/ulog_lisum_propulsion_tb_status.s"
 	@echo "... __/__/__/ulog/ulog_lisum_sensor_airspeed_data.obj"
 	@echo "... __/__/__/ulog/ulog_lisum_sensor_airspeed_data.i"
 	@echo "... __/__/__/ulog/ulog_lisum_sensor_airspeed_data.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_ping.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_ping.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_ping.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_current.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_current.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_current.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_current_brake.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_current_brake.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_current_brake.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_duty.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_duty.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_duty.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_pos.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_pos.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_pos.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_rpm.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_rpm.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_set_rpm.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_1.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_1.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_1.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_2.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_2.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_2.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_3.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_3.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_3.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_4.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_4.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_4.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_5.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_5.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_5.s"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_6.obj"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_6.i"
+	@echo "... __/__/__/ulog/ulog_lisum_vesc_status_6.s"
 	@echo "... __/__/__/ulog/ulog_local_position_ned.obj"
 	@echo "... __/__/__/ulog/ulog_local_position_ned.i"
 	@echo "... __/__/__/ulog/ulog_local_position_ned.s"

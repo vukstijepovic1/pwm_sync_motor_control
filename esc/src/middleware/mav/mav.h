@@ -40,7 +40,7 @@ extern "C" {
 #endif
 
 #ifndef MAV_MAX_TRACK_CNT
-#define MAV_MAX_TRACK_CNT 8
+#define MAV_MAX_TRACK_CNT 16
 #endif
 
 /*******************************************************************************

@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libad7705.a CMakeFiles/ad7705.dir/ad7705.c.obj
+/usr/bin/arm-none-eabi-ranlib libad7705.a

@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libxbus.a CMakeFiles/xbus.dir/xbus.c.obj
+/usr/bin/arm-none-eabi-ranlib libxbus.a

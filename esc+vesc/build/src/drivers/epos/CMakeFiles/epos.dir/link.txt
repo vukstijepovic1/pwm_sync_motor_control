@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libepos.a CMakeFiles/epos.dir/epos_common.c.obj CMakeFiles/epos.dir/epos_csp.c.obj CMakeFiles/epos.dir/epos_eeprom.c.obj CMakeFiles/epos.dir/epos_homing.c.obj CMakeFiles/epos.dir/epos_od.c.obj CMakeFiles/epos.dir/epos_ppm.c.obj CMakeFiles/epos.dir/epos.c.obj
+/usr/bin/arm-none-eabi-ranlib libepos.a

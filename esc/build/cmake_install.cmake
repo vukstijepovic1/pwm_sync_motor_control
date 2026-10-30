@@ -89,6 +89,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/ad7705/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/sd/cmake_install.cmake")
 endif()
 

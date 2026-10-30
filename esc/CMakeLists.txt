@@ -171,6 +171,7 @@ add_subdirectory(src/drivers/icm42688p ${LSM_BINARY_DIR}/src/drivers/icm42688p)
 add_subdirectory(src/drivers/motor ${LSM_BINARY_DIR}/src/drivers/motor)
 add_subdirectory(src/drivers/ms5607 ${LSM_BINARY_DIR}/src/drivers/ms5607)
 add_subdirectory(src/drivers/ms5611 ${LSM_BINARY_DIR}/src/drivers/ms5611)
+add_subdirectory(src/drivers/ad7705 ${LSM_BINARY_DIR}/src/drivers/ad7705)
 add_subdirectory(src/drivers/sd ${LSM_BINARY_DIR}/src/drivers/sd)
 add_subdirectory(src/drivers/ubx ${LSM_BINARY_DIR}/src/drivers/ubx)
 
@@ -217,6 +218,9 @@ add_executable(${EXECUTABLE} ${PROJECT_SOURCES})
 target_include_directories(${EXECUTABLE}
 PUBLIC
     src/app
+    devices/${DEVICE}/HAL
+    devices/${DEVICE}/core
+    src/middleware/mav
 )
 
 target_compile_options(${DEVICE}
@@ -295,6 +299,7 @@ target_link_libraries(${EXECUTABLE}
     ms5611
     sd
     ubx
+    ad7705
 
     # libs
     canopen

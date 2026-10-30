@@ -261,6 +261,19 @@ ms5611/fast:
 .PHONY : ms5611/fast
 
 #=============================================================================
+# Target rules for targets named ad7705
+
+# Build rule for target.
+ad7705: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ad7705
+.PHONY : ad7705
+
+# fast build rule for target.
+ad7705/fast:
+	$(MAKE) $(MAKESILENT) -f src/drivers/ad7705/CMakeFiles/ad7705.dir/build.make src/drivers/ad7705/CMakeFiles/ad7705.dir/build
+.PHONY : ad7705/fast
+
+#=============================================================================
 # Target rules for targets named sd
 
 # Build rule for target.
@@ -642,6 +655,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Fusion"
+	@echo "... ad7705"
 	@echo "... ak09915c"
 	@echo "... anpp"
 	@echo "... bms"

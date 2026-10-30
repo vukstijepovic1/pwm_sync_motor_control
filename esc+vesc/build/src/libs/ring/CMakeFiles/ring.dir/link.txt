@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libring.a CMakeFiles/ring.dir/ring.c.obj
+/usr/bin/arm-none-eabi-ranlib libring.a

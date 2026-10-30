@@ -233,9 +233,9 @@ void udp_process(udp_t *udp)
 		memcpy(track->mac, mac, 6);
 
 		/* filter by MAC, IP and port */
-		if (memcmp(track->mac, tmp_track.mac, 6) != 0 &&
-			memcmp(track->mac, udp_eth_bcast, 6) != 0)
-			continue;
+//		if (memcmp(track->mac, tmp_track.mac, 6) != 0 &&
+//		memcmp(track->mac, udp_eth_bcast, 6) != 0)
+//			continue;
 		if (memcmp(track->ip, tmp_track.ip, 4) != 0 &&
 			memcmp(track->ip, udp_ip_bcast, 4) != 0)
 			continue;

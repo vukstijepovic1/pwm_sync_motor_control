@@ -1,6 +1,6 @@
 /*
- * @file    kde_helper.h
- * @brief   Helper functions for vesc library.
+ * @file    kde_helper.c
+ * @brief   Helper functions for kde library.
  * @version	0.0.1
  * @date    13.08.2025
  * @author  BetaTehPro
@@ -13,6 +13,9 @@
 #include "kde_helper.h"
 #include "util.h"
 #include <string.h>
+
+#include "FreeRTOS.h"
+#include "task.h"
 
 /*******************************************************************************
  * Defines
@@ -146,11 +149,19 @@ lStatus_t kde_get_u8(uint8_t esc_id, uint8_t object, uint8_t* out){
     
 void local_delay_ms(uint32_t ms) {
 
-    volatile uint32_t i;
-
-    for (i = 0; i < (ms * 1000); i++) {
-        __asm__("nop");
+    /* Once the scheduler runs, sleep instead of spinning. HAL_DelayMS is a
+     * busy-wait, so kde_arm_all()'s ~3 s idle hold used to keep the calling
+     * task (task_bridge, prio 2) on the CPU and starve task_work (prio 1):
+     * the board stopped receiving UDP for the whole arm sequence. */
+    if (xTaskGetSchedulerState() == taskSCHEDULER_RUNNING) {
+        vTaskDelay(pdMS_TO_TICKS(ms));
+        return;
     }
+
+    /* Real millisecond delay off the device timer (HAL_DevTimeInit runs in
+     * main). The old nop-loop was ~100x too short, so kde_arm_all()'s
+     * 600 x 5 ms idle-throttle hold actually lasted only tens of ms. */
+    HAL_DelayMS(ms);
 }
 
 /****************************** static functions ******************************/

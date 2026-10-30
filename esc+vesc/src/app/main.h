@@ -1,0 +1,3 @@
+#pragma once
+
+#define BUILD_UNIX_TIMESTAMP 1792583087

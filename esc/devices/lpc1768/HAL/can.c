@@ -222,12 +222,12 @@ void CAN_IRQHandler(void)
 			prvCAN1_CALLBACK(prvCAN1_USR_ARG, intStatus & CAN_HAL_INT_MASK_FC);
 	}
 
-	intStatus = CAN_IntGetStatus(LPC_CAN2);
-	if (intStatus)
-	{
-	    if(prvCAN2_CALLBACK != NULL)
-	    	prvCAN2_CALLBACK(prvCAN2_USR_ARG, intStatus & CAN_HAL_INT_MASK_FC);
-	}
+	// intStatus = CAN_IntGetStatus(LPC_CAN2);
+	// if (intStatus)
+	// {
+	//     if(prvCAN2_CALLBACK != NULL)
+	//     	prvCAN2_CALLBACK(prvCAN2_USR_ARG, intStatus & CAN_HAL_INT_MASK_FC);
+	// }
 }
 
 /****************************** static functions ******************************/

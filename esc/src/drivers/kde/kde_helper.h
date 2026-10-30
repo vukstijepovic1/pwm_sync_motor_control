@@ -1,6 +1,6 @@
 /**
- * @file    vesc_helper.h
- * @brief   Helper functions for vesc library.
+ * @file    kde_helper.h
+ * @brief   Helper functions for kde library.
  * @version	0.0.1
  * @date    13.08.2025
  * @author  BetaTehPro

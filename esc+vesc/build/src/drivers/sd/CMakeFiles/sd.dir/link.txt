@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libsd.a CMakeFiles/sd.dir/sd.c.obj
+/usr/bin/arm-none-eabi-ranlib libsd.a

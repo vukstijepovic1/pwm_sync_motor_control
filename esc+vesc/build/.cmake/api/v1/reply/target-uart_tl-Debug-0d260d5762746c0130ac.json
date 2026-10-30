@@ -1,0 +1,237 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "src/middleware/tl/uart_tl/libuart_tl.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"add_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"src/middleware/tl/uart_tl/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 138,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 150,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-tree-loop-if-convert"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-merge-constants"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fshort-enums"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-math-errno"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-gdwarf-2"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-MMD"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-MP"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-MF"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "\"\\$$(@:%.0=%.d)\""
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Og"
+				},
+				{
+					"fragment" : "-std=c11"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/config"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl/uart_tl/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl/."
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/FreeRTOS/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/FreeRTOS/portable/GCC/ARM_CM3"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/core"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/drivers"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/HAL"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "lpc1768::@154e7542ca348433b725"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "freertos_kernel::@b465033fa9f14d4d80ec"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "tl::@4cbc1391155c8fc45f8f"
+		}
+	],
+	"id" : "uart_tl::@922cf27cbb6a7aa1fb8e",
+	"name" : "uart_tl",
+	"nameOnDisk" : "libuart_tl.a",
+	"paths" : 
+	{
+		"build" : "src/middleware/tl/uart_tl",
+		"source" : "src/middleware/tl/uart_tl"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/middleware/tl/uart_tl/uart_tl.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

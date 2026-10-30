@@ -1,0 +1,1091 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "devices/lpc1768",
+					"jsonFile" : "directory-devices.lpc1768-Debug-fb00ebdfa7208d7a2b33.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "devices/lpc1768",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "src/drivers/ak09915c",
+					"jsonFile" : "directory-src.drivers.ak09915c-Debug-70842e47b7b907f0a66f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "src/drivers/ak09915c",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src/drivers/anpp",
+					"jsonFile" : "directory-src.drivers.anpp-Debug-f964ea3427bfe939479c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "src/drivers/anpp",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "src/drivers/bms",
+					"jsonFile" : "directory-src.drivers.bms-Debug-d023861a76ed3b2da06d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "src/drivers/bms",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/drivers/epos",
+					"jsonFile" : "directory-src.drivers.epos-Debug-64f2fe0132a980ca0ebf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "src/drivers/epos",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "src/drivers/kde",
+					"jsonFile" : "directory-src.drivers.kde-Debug-c672bbfb1d3ef640abca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "src/drivers/kde",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "src/drivers/icm42688p",
+					"jsonFile" : "directory-src.drivers.icm42688p-Debug-b49347af55cde6433f99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 7,
+					"source" : "src/drivers/icm42688p",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "src/drivers/motor",
+					"jsonFile" : "directory-src.drivers.motor-Debug-d45d7a84ecb74e38c1de.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "src/drivers/motor",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "src/drivers/ms5607",
+					"jsonFile" : "directory-src.drivers.ms5607-Debug-b74618ad8d82a49b4c75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 9,
+					"source" : "src/drivers/ms5607",
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"build" : "src/drivers/ms5611",
+					"jsonFile" : "directory-src.drivers.ms5611-Debug-2f4dbd3fa93d7bdb1e2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 10,
+					"source" : "src/drivers/ms5611",
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"build" : "src/drivers/ad7705",
+					"jsonFile" : "directory-src.drivers.ad7705-Debug-6d88b545fffa9c6b2cc2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 11,
+					"source" : "src/drivers/ad7705",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "src/drivers/sd",
+					"jsonFile" : "directory-src.drivers.sd-Debug-1b0eb200c17cd32692e2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 12,
+					"source" : "src/drivers/sd",
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"build" : "src/drivers/ubx",
+					"jsonFile" : "directory-src.drivers.ubx-Debug-988b184ec6ff78020273.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 13,
+					"source" : "src/drivers/ubx",
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"build" : "src/drivers/vesc",
+					"jsonFile" : "directory-src.drivers.vesc-Debug-3ac9b2927a63682ece79.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 14,
+					"source" : "src/drivers/vesc",
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"build" : "src/libs/canopen",
+					"jsonFile" : "directory-src.libs.canopen-Debug-5fbf4c39244980a09abf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 15,
+					"source" : "src/libs/canopen",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "src/libs/Fusion",
+					"jsonFile" : "directory-src.libs.Fusion-Debug-bd2e1f8e0d321ed39c04.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 16,
+					"source" : "src/libs/Fusion",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "src/libs/ring",
+					"jsonFile" : "directory-src.libs.ring-Debug-4f9d399dfc1562117f9c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 17,
+					"source" : "src/libs/ring",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "src/libs/sbus",
+					"jsonFile" : "directory-src.libs.sbus-Debug-ad6192d33307cdc57dfb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 18,
+					"source" : "src/libs/sbus",
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"build" : "src/libs/stat",
+					"jsonFile" : "directory-src.libs.stat-Debug-f7f5a12e6676c3d117ee.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 19,
+					"source" : "src/libs/stat",
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"build" : "src/libs/xbus",
+					"jsonFile" : "directory-src.libs.xbus-Debug-2d761443bd36fb7c29fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 20,
+					"source" : "src/libs/xbus",
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"build" : "src/middleware/FreeRTOS",
+					"childIndexes" : 
+					[
+						22
+					],
+					"jsonFile" : "directory-src.middleware.FreeRTOS-Debug-6541b81a64b7d7d4482a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/middleware/FreeRTOS",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "src/middleware/FreeRTOS/portable",
+					"jsonFile" : "directory-src.middleware.FreeRTOS.portable-Debug-abd756e03a60cb25bc43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 21,
+					"projectIndex" : 0,
+					"source" : "src/middleware/FreeRTOS/portable",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "src/middleware/lfs",
+					"jsonFile" : "directory-src.middleware.lfs-Debug-79215412964255c29036.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 21,
+					"source" : "src/middleware/lfs",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "src/middleware/mav",
+					"jsonFile" : "directory-src.middleware.mav-Debug-94e7ab69c35d5644f2c5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 22,
+					"source" : "src/middleware/mav",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "src/middleware/tl",
+					"jsonFile" : "directory-src.middleware.tl-Debug-4c0f2ced3c96a75fb9e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 23,
+					"source" : "src/middleware/tl",
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"build" : "src/middleware/tl/uart_tl",
+					"jsonFile" : "directory-src.middleware.tl.uart_tl-Debug-9e01a8180a786be12385.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 24,
+					"source" : "src/middleware/tl/uart_tl",
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"build" : "src/middleware/tl/udp_tl",
+					"jsonFile" : "directory-src.middleware.tl.udp_tl-Debug-924e25ac5377e8fff8a7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 25,
+					"source" : "src/middleware/tl/udp_tl",
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"build" : "src/middleware/udp",
+					"jsonFile" : "directory-src.middleware.udp-Debug-b5ec2ede9ef5e06b6204.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 26,
+					"source" : "src/middleware/udp",
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"build" : "src/middleware/ulog",
+					"jsonFile" : "directory-src.middleware.ulog-Debug-335925b87916b54fb6ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 27,
+					"source" : "src/middleware/ulog",
+					"targetIndexes" : 
+					[
+						27
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						21,
+						22
+					],
+					"name" : "act_master",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						17
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "lpc1768",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "ak09915c",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "anpp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "bms",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "epos",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "kde",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "icm42688p",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "motor",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "ms5607",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "ms5611",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11
+					],
+					"name" : "ad7705",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						12
+					],
+					"name" : "sd",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						20
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						13
+					],
+					"name" : "ubx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						24
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						14
+					],
+					"name" : "vesc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						28
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15
+					],
+					"name" : "canopen",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						16
+					],
+					"name" : "Fusion",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						17
+					],
+					"name" : "ring",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						18
+					],
+					"name" : "sbus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						19
+					],
+					"name" : "stat",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						21
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						20
+					],
+					"name" : "xbus",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						29
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "lfs",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "mav",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "tl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						22
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "uart_tl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						23
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "udp_tl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						26
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "udp",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						25
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "ulog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						27
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 16,
+					"id" : "Fusion::@beee4ff38d638e75c32b",
+					"jsonFile" : "target-Fusion-Debug-46cf8ae93b4a8ca127bc.json",
+					"name" : "Fusion",
+					"projectIndex" : 16
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "ad7705::@be03a8d8de1e5c3ad5b1",
+					"jsonFile" : "target-ad7705-Debug-662bb56a8880aa3af6b6.json",
+					"name" : "ad7705",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ak09915c::@e79d099abe31a53b9041",
+					"jsonFile" : "target-ak09915c-Debug-67e0c3f1e7fd114c1ad0.json",
+					"name" : "ak09915c",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "anpp::@0bbdd14634b475ffdd00",
+					"jsonFile" : "target-anpp-Debug-20b18baef9ce93a31773.json",
+					"name" : "anpp",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bms::@697e16ef7e4b617dbd8b",
+					"jsonFile" : "target-bms-Debug-4e0125a54d14910d492d.json",
+					"name" : "bms",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "canopen::@7f20a5b2693c584733f9",
+					"jsonFile" : "target-canopen-Debug-51814221a026e77bddc5.json",
+					"name" : "canopen",
+					"projectIndex" : 15
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "epos::@b76aed8589bd96d874ca",
+					"jsonFile" : "target-epos-Debug-b71ecd1c5316c55c2786.json",
+					"name" : "epos",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "freertos_kernel::@b465033fa9f14d4d80ec",
+					"jsonFile" : "target-freertos_kernel-Debug-8014020e5ac2e900a3de.json",
+					"name" : "freertos_kernel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 22,
+					"id" : "freertos_kernel_port::@3b3fde3d08c69205306d",
+					"jsonFile" : "target-freertos_kernel_port-Debug-14e46821baa769a6f6fb.json",
+					"name" : "freertos_kernel_port",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "icm42688p::@3f6b2626b8758fbe828b",
+					"jsonFile" : "target-icm42688p-Debug-9f91e4b275b732f08578.json",
+					"name" : "icm42688p",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "kde::@c2629be593f7cc34f5a2",
+					"jsonFile" : "target-kde-Debug-92a2a2dcb32cfce89d58.json",
+					"name" : "kde",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "lfs::@1c76ac287b6e62b5ef82",
+					"jsonFile" : "target-lfs-Debug-ad2d0bba03e0ef13af7b.json",
+					"name" : "lfs",
+					"projectIndex" : 21
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lpc1768::@154e7542ca348433b725",
+					"jsonFile" : "target-lpc1768-Debug-9d7a3bb9e0dfef80d724.json",
+					"name" : "lpc1768",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "mav::@2fadfa1c3f8b0ed1f257",
+					"jsonFile" : "target-mav-Debug-a9c1ce958a327de19a3a.json",
+					"name" : "mav",
+					"projectIndex" : 22
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "motor::@4da68fb6c02a307c5021",
+					"jsonFile" : "target-motor-Debug-253092fc1ce93118ad95.json",
+					"name" : "motor",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "ms5607::@90ed983dfeca97a6e95c",
+					"jsonFile" : "target-ms5607-Debug-8d4d4d5094d9d666b933.json",
+					"name" : "ms5607",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "ms5611::@58dc13c0993f3925cf6c",
+					"jsonFile" : "target-ms5611-Debug-054f1d8544ad9a71cb57.json",
+					"name" : "ms5611",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "program.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-program.elf-Debug-b0348a7a3f5339c471c0.json",
+					"name" : "program.elf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "ring::@92b7304889f494cfefc3",
+					"jsonFile" : "target-ring-Debug-9e49c7cc1166c7c49a20.json",
+					"name" : "ring",
+					"projectIndex" : 17
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "sbus::@2869bcba453ffba13af6",
+					"jsonFile" : "target-sbus-Debug-1c5790266d9bd30be535.json",
+					"name" : "sbus",
+					"projectIndex" : 18
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "sd::@096cebbbb16f02b545ed",
+					"jsonFile" : "target-sd-Debug-e7231cb6222e9a23286f.json",
+					"name" : "sd",
+					"projectIndex" : 12
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "stat::@bf5bdc9fff8daa41d98a",
+					"jsonFile" : "target-stat-Debug-ccb9814b4a431817f67d.json",
+					"name" : "stat",
+					"projectIndex" : 19
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "tl::@4cbc1391155c8fc45f8f",
+					"jsonFile" : "target-tl-Debug-152d8a87dc4012b68009.json",
+					"name" : "tl",
+					"projectIndex" : 23
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "uart_tl::@922cf27cbb6a7aa1fb8e",
+					"jsonFile" : "target-uart_tl-Debug-0d260d5762746c0130ac.json",
+					"name" : "uart_tl",
+					"projectIndex" : 24
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "ubx::@2d99e8cb54e1db3e8795",
+					"jsonFile" : "target-ubx-Debug-a3f090867685d3790c90.json",
+					"name" : "ubx",
+					"projectIndex" : 13
+				},
+				{
+					"directoryIndex" : 28,
+					"id" : "udp::@dd0a5a9acbcfef767858",
+					"jsonFile" : "target-udp-Debug-0162a0560f1ab69104bf.json",
+					"name" : "udp",
+					"projectIndex" : 26
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "udp_tl::@c341ee70272a6fca8faa",
+					"jsonFile" : "target-udp_tl-Debug-ab3b9d8605e7c00ccbcd.json",
+					"name" : "udp_tl",
+					"projectIndex" : 25
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "ulog::@08cbf7342a041864ec27",
+					"jsonFile" : "target-ulog-Debug-081fe40d3e4a340a516c.json",
+					"name" : "ulog",
+					"projectIndex" : 27
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "vesc::@a2b692fb05c1349114f7",
+					"jsonFile" : "target-vesc-Debug-cfe27599204e6e176cc5.json",
+					"name" : "vesc",
+					"projectIndex" : 14
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "xbus::@54cf3d610888ebb5dc66",
+					"jsonFile" : "target-xbus-Debug-02bb7d921ccc565996e2.json",
+					"name" : "xbus",
+					"projectIndex" : 20
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/build",
+		"source" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

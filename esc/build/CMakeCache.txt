@@ -232,8 +232,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/usr/bin/arm-none-eabi-strip
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/vuk/Documents/BTP/alex test/pwm_sync/esc/cmake/arm-none-eabi-gcc.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=cmake/arm-none-eabi-gcc.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -280,6 +280,15 @@ act_master_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 act_master_SOURCE_DIR:STATIC=/home/vuk/Documents/BTP/alex test/pwm_sync/esc
+
+//Value Computed by CMake
+ad7705_BINARY_DIR:STATIC=/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/ad7705
+
+//Value Computed by CMake
+ad7705_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+ad7705_SOURCE_DIR:STATIC=/home/vuk/Documents/BTP/alex test/pwm_sync/esc/src/drivers/ad7705
 
 //Value Computed by CMake
 ak09915c_BINARY_DIR:STATIC=/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/ak09915c
@@ -489,6 +498,15 @@ ulog_IS_TOP_LEVEL:STATIC=OFF
 ulog_SOURCE_DIR:STATIC=/home/vuk/Documents/BTP/alex test/pwm_sync/esc/src/middleware/ulog
 
 //Value Computed by CMake
+vesc_BINARY_DIR:STATIC=/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/vesc
+
+//Value Computed by CMake
+vesc_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+vesc_SOURCE_DIR:STATIC=/home/vuk/Documents/BTP/alex test/pwm_sync/esc/src/drivers/vesc
+
+//Value Computed by CMake
 xbus_BINARY_DIR:STATIC=/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/libs/xbus
 
 //Value Computed by CMake
@@ -607,9 +625,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=28
-//ADVANCED property for variable: CMAKE_OBJCOPY
-CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=29
 //objcopy tool
 CMAKE_OBJCOPY:INTERNAL=/usr/bin/arm-none-eabi-objcopy
 //ADVANCED property for variable: CMAKE_OBJDUMP

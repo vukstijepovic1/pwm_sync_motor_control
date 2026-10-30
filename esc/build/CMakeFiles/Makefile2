@@ -74,6 +74,7 @@ all: src/drivers/icm42688p/all
 all: src/drivers/motor/all
 all: src/drivers/ms5607/all
 all: src/drivers/ms5611/all
+all: src/drivers/ad7705/all
 all: src/drivers/sd/all
 all: src/drivers/ubx/all
 all: src/libs/canopen/all
@@ -103,6 +104,7 @@ preinstall: src/drivers/icm42688p/preinstall
 preinstall: src/drivers/motor/preinstall
 preinstall: src/drivers/ms5607/preinstall
 preinstall: src/drivers/ms5611/preinstall
+preinstall: src/drivers/ad7705/preinstall
 preinstall: src/drivers/sd/preinstall
 preinstall: src/drivers/ubx/preinstall
 preinstall: src/libs/canopen/preinstall
@@ -133,6 +135,7 @@ clean: src/drivers/icm42688p/clean
 clean: src/drivers/motor/clean
 clean: src/drivers/ms5607/clean
 clean: src/drivers/ms5611/clean
+clean: src/drivers/ad7705/clean
 clean: src/drivers/sd/clean
 clean: src/drivers/ubx/clean
 clean: src/libs/canopen/clean
@@ -165,6 +168,21 @@ devices/lpc1768/preinstall:
 # Recursive "clean" directory target.
 devices/lpc1768/clean: devices/lpc1768/CMakeFiles/lpc1768.dir/clean
 .PHONY : devices/lpc1768/clean
+
+#=============================================================================
+# Directory level rules for directory src/drivers/ad7705
+
+# Recursive "all" directory target.
+src/drivers/ad7705/all: src/drivers/ad7705/CMakeFiles/ad7705.dir/all
+.PHONY : src/drivers/ad7705/all
+
+# Recursive "preinstall" directory target.
+src/drivers/ad7705/preinstall:
+.PHONY : src/drivers/ad7705/preinstall
+
+# Recursive "clean" directory target.
+src/drivers/ad7705/clean: src/drivers/ad7705/CMakeFiles/ad7705.dir/clean
+.PHONY : src/drivers/ad7705/clean
 
 #=============================================================================
 # Directory level rules for directory src/drivers/ak09915c
@@ -572,6 +590,7 @@ CMakeFiles/program.elf.dir/all: src/drivers/icm42688p/CMakeFiles/icm42688p.dir/a
 CMakeFiles/program.elf.dir/all: src/drivers/motor/CMakeFiles/motor.dir/all
 CMakeFiles/program.elf.dir/all: src/drivers/ms5607/CMakeFiles/ms5607.dir/all
 CMakeFiles/program.elf.dir/all: src/drivers/ms5611/CMakeFiles/ms5611.dir/all
+CMakeFiles/program.elf.dir/all: src/drivers/ad7705/CMakeFiles/ad7705.dir/all
 CMakeFiles/program.elf.dir/all: src/drivers/sd/CMakeFiles/sd.dir/all
 CMakeFiles/program.elf.dir/all: src/drivers/ubx/CMakeFiles/ubx.dir/all
 CMakeFiles/program.elf.dir/all: src/libs/canopen/CMakeFiles/canopen.dir/all
@@ -590,7 +609,7 @@ CMakeFiles/program.elf.dir/all: src/middleware/udp/CMakeFiles/udp.dir/all
 CMakeFiles/program.elf.dir/all: src/middleware/ulog/CMakeFiles/ulog.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.elf.dir/build.make CMakeFiles/program.elf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/program.elf.dir/build.make CMakeFiles/program.elf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=27,28 "Built target program.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=26,27 "Built target program.elf"
 .PHONY : CMakeFiles/program.elf.dir/all
 
 # Build rule for subdir invocation for target.
@@ -744,7 +763,7 @@ src/drivers/epos/CMakeFiles/epos.dir/clean:
 # Target rules for target src/drivers/kde/CMakeFiles/kde.dir
 
 # All Build rule for target.
-src/drivers/kde/CMakeFiles/kde.dir/all:
+src/drivers/kde/CMakeFiles/kde.dir/all: src/middleware/FreeRTOS/CMakeFiles/freertos_kernel.dir/all
 	$(MAKE) $(MAKESILENT) -f src/drivers/kde/CMakeFiles/kde.dir/build.make src/drivers/kde/CMakeFiles/kde.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/drivers/kde/CMakeFiles/kde.dir/build.make src/drivers/kde/CMakeFiles/kde.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=11 "Built target kde"
@@ -752,7 +771,7 @@ src/drivers/kde/CMakeFiles/kde.dir/all:
 
 # Build rule for subdir invocation for target.
 src/drivers/kde/CMakeFiles/kde.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/drivers/kde/CMakeFiles/kde.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 0
 .PHONY : src/drivers/kde/CMakeFiles/kde.dir/rule
@@ -799,12 +818,12 @@ src/drivers/icm42688p/CMakeFiles/icm42688p.dir/clean:
 src/drivers/motor/CMakeFiles/motor.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/drivers/motor/CMakeFiles/motor.dir/build.make src/drivers/motor/CMakeFiles/motor.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/drivers/motor/CMakeFiles/motor.dir/build.make src/drivers/motor/CMakeFiles/motor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=24 "Built target motor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num= "Built target motor"
 .PHONY : src/drivers/motor/CMakeFiles/motor.dir/all
 
 # Build rule for subdir invocation for target.
 src/drivers/motor/CMakeFiles/motor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/drivers/motor/CMakeFiles/motor.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 0
 .PHONY : src/drivers/motor/CMakeFiles/motor.dir/rule
@@ -825,7 +844,7 @@ src/drivers/motor/CMakeFiles/motor.dir/clean:
 src/drivers/ms5607/CMakeFiles/ms5607.dir/all: devices/lpc1768/CMakeFiles/lpc1768.dir/all
 	$(MAKE) $(MAKESILENT) -f src/drivers/ms5607/CMakeFiles/ms5607.dir/build.make src/drivers/ms5607/CMakeFiles/ms5607.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/drivers/ms5607/CMakeFiles/ms5607.dir/build.make src/drivers/ms5607/CMakeFiles/ms5607.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=25 "Built target ms5607"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=24 "Built target ms5607"
 .PHONY : src/drivers/ms5607/CMakeFiles/ms5607.dir/all
 
 # Build rule for subdir invocation for target.
@@ -851,7 +870,7 @@ src/drivers/ms5607/CMakeFiles/ms5607.dir/clean:
 src/drivers/ms5611/CMakeFiles/ms5611.dir/all: devices/lpc1768/CMakeFiles/lpc1768.dir/all
 	$(MAKE) $(MAKESILENT) -f src/drivers/ms5611/CMakeFiles/ms5611.dir/build.make src/drivers/ms5611/CMakeFiles/ms5611.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/drivers/ms5611/CMakeFiles/ms5611.dir/build.make src/drivers/ms5611/CMakeFiles/ms5611.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=26 "Built target ms5611"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=25 "Built target ms5611"
 .PHONY : src/drivers/ms5611/CMakeFiles/ms5611.dir/all
 
 # Build rule for subdir invocation for target.
@@ -871,13 +890,39 @@ src/drivers/ms5611/CMakeFiles/ms5611.dir/clean:
 .PHONY : src/drivers/ms5611/CMakeFiles/ms5611.dir/clean
 
 #=============================================================================
+# Target rules for target src/drivers/ad7705/CMakeFiles/ad7705.dir
+
+# All Build rule for target.
+src/drivers/ad7705/CMakeFiles/ad7705.dir/all: devices/lpc1768/CMakeFiles/lpc1768.dir/all
+	$(MAKE) $(MAKESILENT) -f src/drivers/ad7705/CMakeFiles/ad7705.dir/build.make src/drivers/ad7705/CMakeFiles/ad7705.dir/depend
+	$(MAKE) $(MAKESILENT) -f src/drivers/ad7705/CMakeFiles/ad7705.dir/build.make src/drivers/ad7705/CMakeFiles/ad7705.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num= "Built target ad7705"
+.PHONY : src/drivers/ad7705/CMakeFiles/ad7705.dir/all
+
+# Build rule for subdir invocation for target.
+src/drivers/ad7705/CMakeFiles/ad7705.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 11
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/drivers/ad7705/CMakeFiles/ad7705.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 0
+.PHONY : src/drivers/ad7705/CMakeFiles/ad7705.dir/rule
+
+# Convenience name for target.
+ad7705: src/drivers/ad7705/CMakeFiles/ad7705.dir/rule
+.PHONY : ad7705
+
+# clean rule for target.
+src/drivers/ad7705/CMakeFiles/ad7705.dir/clean:
+	$(MAKE) $(MAKESILENT) -f src/drivers/ad7705/CMakeFiles/ad7705.dir/build.make src/drivers/ad7705/CMakeFiles/ad7705.dir/clean
+.PHONY : src/drivers/ad7705/CMakeFiles/ad7705.dir/clean
+
+#=============================================================================
 # Target rules for target src/drivers/sd/CMakeFiles/sd.dir
 
 # All Build rule for target.
 src/drivers/sd/CMakeFiles/sd.dir/all: devices/lpc1768/CMakeFiles/lpc1768.dir/all
 	$(MAKE) $(MAKESILENT) -f src/drivers/sd/CMakeFiles/sd.dir/build.make src/drivers/sd/CMakeFiles/sd.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/drivers/sd/CMakeFiles/sd.dir/build.make src/drivers/sd/CMakeFiles/sd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=30 "Built target sd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=29 "Built target sd"
 .PHONY : src/drivers/sd/CMakeFiles/sd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -903,12 +948,12 @@ src/drivers/sd/CMakeFiles/sd.dir/clean:
 src/drivers/ubx/CMakeFiles/ubx.dir/all: devices/lpc1768/CMakeFiles/lpc1768.dir/all
 	$(MAKE) $(MAKESILENT) -f src/drivers/ubx/CMakeFiles/ubx.dir/build.make src/drivers/ubx/CMakeFiles/ubx.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/drivers/ubx/CMakeFiles/ubx.dir/build.make src/drivers/ubx/CMakeFiles/ubx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=32 "Built target ubx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num= "Built target ubx"
 .PHONY : src/drivers/ubx/CMakeFiles/ubx.dir/all
 
 # Build rule for subdir invocation for target.
 src/drivers/ubx/CMakeFiles/ubx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 12
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/drivers/ubx/CMakeFiles/ubx.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 0
 .PHONY : src/drivers/ubx/CMakeFiles/ubx.dir/rule
@@ -981,7 +1026,7 @@ src/libs/Fusion/CMakeFiles/Fusion.dir/clean:
 src/libs/ring/CMakeFiles/ring.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/libs/ring/CMakeFiles/ring.dir/build.make src/libs/ring/CMakeFiles/ring.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/libs/ring/CMakeFiles/ring.dir/build.make src/libs/ring/CMakeFiles/ring.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=29 "Built target ring"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=28 "Built target ring"
 .PHONY : src/libs/ring/CMakeFiles/ring.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1085,7 +1130,7 @@ src/libs/xbus/CMakeFiles/xbus.dir/clean:
 src/middleware/FreeRTOS/CMakeFiles/freertos_kernel.dir/all: src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/all
 	$(MAKE) $(MAKESILENT) -f src/middleware/FreeRTOS/CMakeFiles/freertos_kernel.dir/build.make src/middleware/FreeRTOS/CMakeFiles/freertos_kernel.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/middleware/FreeRTOS/CMakeFiles/freertos_kernel.dir/build.make src/middleware/FreeRTOS/CMakeFiles/freertos_kernel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=7,8 "Built target freertos_kernel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=7,8,9 "Built target freertos_kernel"
 .PHONY : src/middleware/FreeRTOS/CMakeFiles/freertos_kernel.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1111,12 +1156,12 @@ src/middleware/FreeRTOS/CMakeFiles/freertos_kernel.dir/clean:
 src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/build.make src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/build.make src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=9 "Built target freertos_kernel_port"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num= "Built target freertos_kernel_port"
 .PHONY : src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/all
 
 # Build rule for subdir invocation for target.
 src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 1
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 0
 .PHONY : src/middleware/FreeRTOS/portable/CMakeFiles/freertos_kernel_port.dir/rule
@@ -1189,7 +1234,7 @@ src/middleware/mav/CMakeFiles/mav.dir/clean:
 src/middleware/tl/CMakeFiles/tl.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/middleware/tl/CMakeFiles/tl.dir/build.make src/middleware/tl/CMakeFiles/tl.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/middleware/tl/CMakeFiles/tl.dir/build.make src/middleware/tl/CMakeFiles/tl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=31 "Built target tl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=30 "Built target tl"
 .PHONY : src/middleware/tl/CMakeFiles/tl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1217,12 +1262,12 @@ src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/all: src/middleware/FreeRTOS/CM
 src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/all: src/middleware/tl/CMakeFiles/tl.dir/all
 	$(MAKE) $(MAKESILENT) -f src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/build.make src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/build.make src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num= "Built target uart_tl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=31 "Built target uart_tl"
 .PHONY : src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/all
 
 # Build rule for subdir invocation for target.
 src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 15
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 16
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 0
 .PHONY : src/middleware/tl/uart_tl/CMakeFiles/uart_tl.dir/rule
@@ -1244,7 +1289,7 @@ src/middleware/tl/udp_tl/CMakeFiles/udp_tl.dir/all: src/middleware/tl/CMakeFiles
 src/middleware/tl/udp_tl/CMakeFiles/udp_tl.dir/all: src/middleware/udp/CMakeFiles/udp.dir/all
 	$(MAKE) $(MAKESILENT) -f src/middleware/tl/udp_tl/CMakeFiles/udp_tl.dir/build.make src/middleware/tl/udp_tl/CMakeFiles/udp_tl.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/middleware/tl/udp_tl/CMakeFiles/udp_tl.dir/build.make src/middleware/tl/udp_tl/CMakeFiles/udp_tl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=34 "Built target udp_tl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=33 "Built target udp_tl"
 .PHONY : src/middleware/tl/udp_tl/CMakeFiles/udp_tl.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1270,7 +1315,7 @@ src/middleware/tl/udp_tl/CMakeFiles/udp_tl.dir/clean:
 src/middleware/udp/CMakeFiles/udp.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/middleware/udp/CMakeFiles/udp.dir/build.make src/middleware/udp/CMakeFiles/udp.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/middleware/udp/CMakeFiles/udp.dir/build.make src/middleware/udp/CMakeFiles/udp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=33 "Built target udp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=32 "Built target udp"
 .PHONY : src/middleware/udp/CMakeFiles/udp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1296,12 +1341,12 @@ src/middleware/udp/CMakeFiles/udp.dir/clean:
 src/middleware/ulog/CMakeFiles/ulog.dir/all: src/middleware/lfs/CMakeFiles/lfs.dir/all
 	$(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/middleware/ulog/CMakeFiles/ulog.dir/build.make src/middleware/ulog/CMakeFiles/ulog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target ulog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99 "Built target ulog"
 .PHONY : src/middleware/ulog/CMakeFiles/ulog.dir/all
 
 # Build rule for subdir invocation for target.
 src/middleware/ulog/CMakeFiles/ulog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 65
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 66
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/middleware/ulog/CMakeFiles/ulog.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" 0
 .PHONY : src/middleware/ulog/CMakeFiles/ulog.dir/rule

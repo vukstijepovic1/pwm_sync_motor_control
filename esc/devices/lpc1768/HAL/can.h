@@ -44,7 +44,7 @@ extern "C" {
 /*! CAN2 Pin option.
  *  HAL_CAN_2_PIN_OPTION = 0 -> CAN2 uses pins P0.4 & P0.5
  *  HAL_CAN_2_PIN_OPTION = 1 -> CAN2 uses pins P2.7 & P2.8 */
-#define HAL_CAN_2_PIN_OPTION 0
+#define HAL_CAN_2_PIN_OPTION 1
 #endif
 
 /*******************************************************************************

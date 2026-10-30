@@ -31,6 +31,9 @@
 /home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/ms5611/CMakeFiles/ms5611.dir
 /home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/ms5611/CMakeFiles/edit_cache.dir
 /home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/ms5611/CMakeFiles/rebuild_cache.dir
+/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/ad7705/CMakeFiles/ad7705.dir
+/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/ad7705/CMakeFiles/edit_cache.dir
+/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/ad7705/CMakeFiles/rebuild_cache.dir
 /home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/sd/CMakeFiles/sd.dir
 /home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/sd/CMakeFiles/edit_cache.dir
 /home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/drivers/sd/CMakeFiles/rebuild_cache.dir

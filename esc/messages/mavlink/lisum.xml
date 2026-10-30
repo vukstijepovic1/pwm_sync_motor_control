@@ -84,6 +84,103 @@
 		</entry>
 	</enum>
 
+	<enum name="LISUM_ESC_ID">
+		<description>These values identify a specific ESC (0-60, increment = 2)</description>
+		<entry value="0" name="LISUM_ESC_ID_1">
+			<description>ESC 1</description>
+		</entry>
+			<entry value="2" name="LISUM_ESC_ID_2">
+		<description>ESC 2</description>
+		</entry>
+			<entry value="4" name="LISUM_ESC_ID_3">
+		<description>ESC 3</description>
+		</entry>
+			<entry value="6" name="LISUM_ESC_ID_4">
+		<description>ESC 4</description>
+		</entry>
+			<entry value="8" name="LISUM_ESC_ID_5">
+		<description>ESC 5</description>
+		</entry>
+			<entry value="10" name="LISUM_ESC_ID_6">
+		<description>ESC 6</description>
+		</entry>
+			<entry value="12" name="LISUM_ESC_ID_7">
+		<description>ESC 7</description>
+		</entry>
+			<entry value="14" name="LISUM_ESC_ID_8">
+		<description>ESC 8</description>
+		</entry>
+			<entry value="16" name="LISUM_ESC_ID_9">
+		<description>ESC 9</description>
+		</entry>
+			<entry value="18" name="LISUM_ESC_ID_10">
+		<description>ESC 10</description>
+		</entry>
+			<entry value="20" name="LISUM_ESC_ID_11">
+		<description>ESC 11</description>
+		</entry>
+			<entry value="22" name="LISUM_ESC_ID_12">
+		<description>ESC 12</description>
+		</entry>
+			<entry value="24" name="LISUM_ESC_ID_13">
+		<description>ESC 13</description>
+		</entry>
+			<entry value="26" name="LISUM_ESC_ID_14">
+		<description>ESC 14</description>
+		</entry>
+			<entry value="28" name="LISUM_ESC_ID_15">
+		<description>ESC 15</description>
+		</entry>
+			<entry value="30" name="LISUM_ESC_ID_16">
+		<description>ESC 16</description>
+		</entry>
+			<entry value="32" name="LISUM_ESC_ID_17">
+		<description>ESC 17</description>
+		</entry>
+			<entry value="34" name="LISUM_ESC_ID_18">
+		<description>ESC 18</description>
+		</entry>
+			<entry value="36" name="LISUM_ESC_ID_19">
+		<description>ESC 19</description>
+		</entry>
+			<entry value="38" name="LISUM_ESC_ID_20">
+		<description>ESC 20</description>
+		</entry>
+			<entry value="40" name="LISUM_ESC_ID_21">
+		<description>ESC 21</description>
+		</entry>
+			<entry value="42" name="LISUM_ESC_ID_22">
+		<description>ESC 22</description>
+		</entry>
+			<entry value="44" name="LISUM_ESC_ID_23">
+		<description>ESC 23</description>
+		</entry>
+			<entry value="46" name="LISUM_ESC_ID_24">
+		<description>ESC 24</description>
+		</entry>
+			<entry value="48" name="LISUM_ESC_ID_25">
+		<description>ESC 25</description>
+		</entry>
+			<entry value="50" name="LISUM_ESC_ID_26">
+		<description>ESC 26</description>
+		</entry>
+			<entry value="52" name="LISUM_ESC_ID_27">
+		<description>ESC 27</description>
+		</entry>
+			<entry value="54" name="LISUM_ESC_ID_28">
+		<description>ESC 28</description>
+		</entry>
+			<entry value="56" name="LISUM_ESC_ID_29">
+		<description>ESC 29</description>
+		</entry>
+			<entry value="58" name="LISUM_ESC_ID_30">
+		<description>ESC 30</description>
+		</entry>
+			<entry value="60" name="LISUM_ESC_ID_31">
+		<description>ESC 31</description>
+		</entry>
+	</enum>
+
 	<enum name="MAV_CMD">
 		<!-- Manual control/Hornet messages (59328 - 59335) -->
 		<entry value="59328" name="MAV_CMD_HORNET_HOMING" hasLocation="false" isDestination="false">
@@ -384,6 +481,41 @@
 	<!-- ******************************* -->
 	<!-- ******************************* -->
 	<!-- ******************************* -->
+
+	<!--  ************************************  -->
+	<!--  ************************************  -->
+	<!--  ************************************  -->
+	<!--  ESC Status messages (59520 - 59583)   -->
+	<!--  ************************************  -->
+	<!--  ************************************  -->
+	<!--  ************************************  -->
+	
+	<message id="59520" name="LISUM_ESC_STATUS">
+		<description>ESC status data.</description>
+		<field type="uint8_t" name="index" enum="LISUM_ESC_ID">Index of the first ESC in this message. minValue = 0, maxValue = 60, increment = 2.</field>
+		<field type="float[2]" name="voltage" units="V">Input voltage supplied to the ESC.</field>
+		<field type="float[2]" name="curr_motor" units="A">Current drawn by the motor.</field>
+		<field type="float[2]" name="current" units="A">Total current drawn from the battery.</field>
+		<field type="float[2]" name="temp_fet" units="C">Temperature of the ESC FETs.</field>
+		<field type="float[2]" name="temp_motor" units="C">Temperature of the motor.</field>
+		<field type="float[2]" name="rpm" units="eRPM">Motor rotational speed in electrical RPM.</field>
+		<field type="float[2]" name="duty" units="%">Duty cycle of the ESC output.</field>
+		<field type="float[2]" name="energy_consumed" units="Wh">Energy consumed by the motor.</field>
+		<field type="float[2]" name="curr_consumed" units="Ah">Total charge consumed by the motor.</field>
+	</message>
+
+	<message id="59521" name="LISUM_PROPULSION_TB_STATUS">
+		<description>Motor propulsion system status.</description>
+		<field type="float" name="voltage" units="V">Input voltage supplied to the motor.</field>
+		<field type="float" name="current" units="A">Current drawn by the motor.</field>
+		<field type="float" name="rpm" units="RPM">Motor rotational speed.</field>
+		<field type="float" name="temp_motor" units="C">Temperature of the motor.</field>
+		<field type="float" name="temp_inverter" units="C">Temperature of the inverter.</field>
+		<field type="float" name="temp_ambient" units="C">Temperature of the ambient.</field>
+		<field type="float" name="torque" units="Nm">Torque produced by the motor.</field>
+		<field type="float" name="thrust" units="N">Thrust generated by the motor.</field>
+		<field type="float" name="throttle" units="%">Motor load percentage.</field>
+	</message>
 
 	</messages>
 

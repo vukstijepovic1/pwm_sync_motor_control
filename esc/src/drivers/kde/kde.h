@@ -1,13 +1,13 @@
 /**
  * @file    ftp_handler.h
- * @brief   Drivers for VESC.
+ * @brief   Drivers for KDE Direct.
  * @version 0.0.1
  * @date    12.08.2025
  * @author  BetaTehPro
  */
 
-#ifndef VESC_H
-#define VESC_H
+#ifndef KDE_H
+#define KDE_H
 
 #ifdef __cplusplus
 extern "C" {
@@ -21,7 +21,7 @@ extern "C" {
 #include <stdbool.h>
 #include "can.h"
 #include "pwm.h"
-#include "mav.h"
+
 #include "uart.h"
 
 /*******************************************************************************
@@ -33,20 +33,41 @@ extern "C" {
 
 #define KDE_CAN_HAL_INSTANCE       CAN_HAL_INSTANCE_0
 #define KDE_W8_FOR_STATUS_RESP_MS  500 
-#define KDE_CAN_TIMEOUT            10 //KDE_W8_FOR_STATUS_RESP_MS * 1000
+
+/* CAN TX wait for a free transmit buffer [us]. The controller has 3, and
+ * with 4 ESCs kde_arm_all()/the status poll queue 4 frames back to back, so
+ * the 4th must wait for the 1st to leave the bus: an 8-byte extended frame
+ * at 1 Mbit/s is up to ~160 us, plus a frame already on the bus. */
+#define KDE_CAN_TIMEOUT            400
 #define KDE_CAN_RX_TIMEOUT         700 
 #define KDE_MOTOR_POLES_NUMBER     42  
-#define KDE_MINIMUM_PWM            1100
+#define KDE_MINIMUM_PWM            1010
 #define KDE_COEF_MUL_PWM           8.4f
 #define KDE_BROADCAST_ID           1   
 #define KDE_MAX_ESC                4
 
 #define KDE_PWM_HAL_INSTANCE       PWM_HAL_INSTANCE_0
 #define KDE_PWM_PERIOD_US          20000              /* 20ms => 50Hz, shared by all ESCs */
-#define KDE_USE_PWM                1
+/* Throttle output selection.
+ *
+ * With the ESCs set to CAN BUS CONTROL = PWM SYNC, the PWM lead is the
+ * primary throttle and CAN is only the backup "if the PWM signal is lost or
+ * disconnected" - and, per the KDECAN protocol doc, "arming off of CAN bus
+ * alone is disabled". So KDE_USE_PWM must stay 1 in that mode; the CAN
+ * throttle is the intended backup and costs nothing to leave on.
+ *
+ * Neither switch gates kde_reset()/kde_shutdown() - those always go out over
+ * CAN, since they are how arming is re-enabled after a shutdown. */
+#define KDE_USE_PWM                1   /* drive the dedicated PWM pins      */
+#define KDE_USE_CAN_THROTTLE       1   /* also send SET_PWM over CAN        */
+
+/* Settle time after object 33 (RESTART) before streaming the idle hold [ms].
+ * RESTART reboots the ESC MCU (startup tones included); 100 ms was shorter
+ * than the boot, so part of the idle hold went to an ESC that wasn't
+ * listening yet. */
+#define KDE_RESTART_SETTLE_MS      2000
+
 #define KDE_TEST_PWM               1300
-
-
 
 /*******************************************************************************
  * Enums
@@ -69,8 +90,11 @@ typedef enum {
     CAN_OBJECT_GET_RAW_COUNT      = 13, // :)
     CAN_OBJECT_TURN_OFF           = 32, // :)
     CAN_OBJECT_RESTART            = 33, // :)
-    CAN_OBJECT_GET_DEBUGG_INFO    = 34  //  ?
-} object_numbers_e;
+    CAN_OBJECT_GET_DEBUGG_INFO    = 34, //  CEKIRAJ ERORRE
+
+    CAN_OBJECT_ARM                = 99  //  CUSTOM_MSG
+
+} object_numbers_e; //TODO
 
 typedef enum {
     CAN_RETURN_TYPE_UINT8         = 0,
@@ -103,18 +127,17 @@ static const struct {
     pwm_hal_channel_t ch;
 }kde_pwm_channel_map[] = {
     {2, PWM_HAL_CHANNEL_1}, /* P1.18 */
-    {3, PWM_HAL_CHANNEL_2}, /* P1. */
-    {4, PWM_HAL_CHANNEL_3}, /* P1. */
-    {5, PWM_HAL_CHANNEL_4}, /* P1. */
-}; 
+    {3, PWM_HAL_CHANNEL_2}, /* P1.20 */
+    {4, PWM_HAL_CHANNEL_3}, /* P1.21 */
+    {5, PWM_HAL_CHANNEL_4}, /* P1.23 */
+};
 
-#define KDE_PWM_CHANNEL_PWM_LEN \
+#define KDE_PWM_CHANNEL_PWM_LEN  \
     (sizeof(kde_pwm_channel_map) / sizeof(kde_pwm_channel_map[0]))
 
 /*******************************************************************************
  * Structs
  ******************************************************************************/
-
 
 /*******************************************************************************
  * Prototypes
@@ -179,7 +202,7 @@ lStatus_t kde_set_pwm(uint8_t esc_id, int16_t pwm);
  * @param   duty        Motor duty cycle value to set.
  *
  * @return  lStatus_t   Status code indicating success or failure.
- */
+ * /
 lStatus_t kde_set_duty(uint8_t esc_id, int16_t duty);
 
 /**
@@ -262,7 +285,7 @@ lStatus_t kde_get_temp(uint8_t esc_id);
  * @param   esc_id          ESC node ID on CAN bus.
  *
  * @return  lStatus_t       Status of the CAN transmit only.
- */
+ */ 
 lStatus_t kde_get_throttle_in(uint8_t esc_id);
 
 /**
@@ -363,7 +386,6 @@ lStatus_t kde_reset(uint8_t esc_id);
  */
 lStatus_t kde_get_error_info(uint8_t esc_id);
 
-
 /**
  * @brief   Arm the ESC.
  *
@@ -373,8 +395,10 @@ lStatus_t kde_get_error_info(uint8_t esc_id);
  */
 lStatus_t kde_arming(uint8_t esc_id);
 
+lStatus_t kde_arm_all(void);
+
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* VESC_H */
+#endif /* KDE_H */

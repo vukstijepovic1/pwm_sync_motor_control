@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libkde.a CMakeFiles/kde.dir/kde.c.obj CMakeFiles/kde.dir/kde_helper.c.obj
+/usr/bin/arm-none-eabi-ranlib libkde.a

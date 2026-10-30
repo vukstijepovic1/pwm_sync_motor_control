@@ -1,0 +1,1200 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "program.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 217,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 246,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 288,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 279,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 150,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 219,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-tree-loop-if-convert"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-merge-constants"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fshort-enums"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-math-errno"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-gdwarf-2"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-MMD"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-MP"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-MF"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "\"\\$$(@:%.0=%.d)\""
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wstack-usage=128"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-enum-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-address-of-packed-member"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-cast-align"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-shadow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-stack-usage"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-conversion"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "LFS_DEFINES=lfs_defines.h"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "MAV_MAX_TRACK_CNT=16"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/config"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/bms/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/motor/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/sd/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ad7705/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/ring/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/sbus/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/stat/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/build/mavlink/lisum"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/mav/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl/uart_tl/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl/udp_tl/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/udp/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/lfs/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/lfs/./littlefs"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/app"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/vesc"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/HAL"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/core"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/mav"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/drivers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ak09915c/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/anpp/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/epos/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/canopen/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/kde"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/FreeRTOS/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/FreeRTOS/portable/GCC/ARM_CM3"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/icm42688p/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ms5607/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ms5611/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ubx/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/lfs/littlefs"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/build/mavlink"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/Fusion/./Fusion/Fusion"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/xbus/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/build/ulog"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/ulog/."
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-common"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-tree-loop-if-convert"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-merge-constants"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fshort-enums"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-fno-math-errno"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-gdwarf-2"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-MMD"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-MP"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-MF"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "\"\\$$(@:%.0=%.d)\""
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wstack-usage=128"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wconversion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wdouble-promotion"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-unused-function"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-enum-conversion"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-address-of-packed-member"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-cast-align"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-shadow"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-stack-usage"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-conversion"
+				},
+				{
+					"fragment" : "-std=c11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "LFS_DEFINES=lfs_defines.h"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "MAV_MAX_TRACK_CNT=16"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/config"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/bms/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/motor/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/sd/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ad7705/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/ring/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/sbus/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/stat/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/build/mavlink/lisum"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/mav/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl/uart_tl/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl/udp_tl/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/udp/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/lfs/."
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/lfs/./littlefs"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/app"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/vesc"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/HAL"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/core"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/mav"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/drivers"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ak09915c/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/anpp/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/epos/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/canopen/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/kde"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/FreeRTOS/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/FreeRTOS/portable/GCC/ARM_CM3"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/icm42688p/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ms5607/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ms5611/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/drivers/ubx/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/lfs/littlefs"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/tl"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/build/mavlink"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/Fusion/./Fusion/Fusion"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/libs/xbus/."
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/build/ulog"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/src/middleware/ulog/."
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				6,
+				7
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "lpc1768::@154e7542ca348433b725"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ak09915c::@e79d099abe31a53b9041"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "anpp::@0bbdd14634b475ffdd00"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "bms::@697e16ef7e4b617dbd8b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "epos::@b76aed8589bd96d874ca"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "kde::@c2629be593f7cc34f5a2"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "icm42688p::@3f6b2626b8758fbe828b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "motor::@4da68fb6c02a307c5021"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ms5607::@90ed983dfeca97a6e95c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ms5611::@58dc13c0993f3925cf6c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ad7705::@be03a8d8de1e5c3ad5b1"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "sd::@096cebbbb16f02b545ed"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ubx::@2d99e8cb54e1db3e8795"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vesc::@a2b692fb05c1349114f7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "canopen::@7f20a5b2693c584733f9"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Fusion::@beee4ff38d638e75c32b"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ring::@92b7304889f494cfefc3"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "sbus::@2869bcba453ffba13af6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "stat::@bf5bdc9fff8daa41d98a"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "xbus::@54cf3d610888ebb5dc66"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "freertos_kernel::@b465033fa9f14d4d80ec"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "lfs::@1c76ac287b6e62b5ef82"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "mav::@2fadfa1c3f8b0ed1f257"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "tl::@4cbc1391155c8fc45f8f"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "uart_tl::@922cf27cbb6a7aa1fb8e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "udp_tl::@c341ee70272a6fca8faa"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "udp::@dd0a5a9acbcfef767858"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ulog::@08cbf7342a041864ec27"
+		}
+	],
+	"id" : "program.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "\"-T/home/vuk/Documents/BTP/alex test/pwm_sync/esc+vesc/devices/lpc1768/linker.ld\"",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mcpu=cortex-m3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lnosys",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-Map=project.map,--cref",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--print-memory-usage",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "devices/lpc1768/liblpc1768.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/ak09915c/libak09915c.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/anpp/libanpp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/bms/libbms.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/epos/libepos.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/kde/libkde.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/icm42688p/libicm42688p.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/motor/libmotor.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/ms5607/libms5607.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/ms5611/libms5611.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/sd/libsd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/ubx/libubx.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/vesc/libvesc.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/drivers/ad7705/libad7705.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/libs/canopen/libcanopen.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/libs/Fusion/libFusion.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/libs/ring/libring.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/libs/sbus/libsbus.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/libs/stat/libstat.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/libs/xbus/libxbus.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/FreeRTOS/libfreertos_kernel.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/mav/libmav.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/tl/libtl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/tl/uart_tl/libuart_tl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/tl/udp_tl/libudp_tl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/lfs/liblfs.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/udp/libudp.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/ulog/libulog.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "devices/lpc1768/liblpc1768.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/FreeRTOS/libfreertos_kernel.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src/middleware/FreeRTOS/portable/libfreertos_kernel_port.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/FreeRTOS/libfreertos_kernel.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "src/middleware/FreeRTOS/portable/libfreertos_kernel_port.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/tl/libtl.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "src/middleware/lfs/liblfs.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "program.elf",
+	"nameOnDisk" : "program.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				6,
+				7
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "devices/lpc1768/startup.S",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/app/main.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/app/task_bridge.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/app/task_mav.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "src/app/task_work.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "build/mavlink/lisum/lisum.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "src/middleware/lfs/littlefs/lfs.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "src/middleware/lfs/littlefs/lfs_util.c",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

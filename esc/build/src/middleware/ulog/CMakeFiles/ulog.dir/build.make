@@ -1455,10 +1455,24 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_link_node_status.c.s:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_link_node_status.c.s"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_link_node_status.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_link_node_status.c.s
 
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj: ulog/ulog_lisum_esc_status.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_esc_status.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_esc_status.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_esc_status.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.s
+
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj: ulog/ulog_lisum_gnss_recv_data.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_100) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_gnss_recv_data.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.i: cmake_force
@@ -1472,7 +1486,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj: ulog/ulog_lisum_manual_ctrl_hornet.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_101) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_manual_ctrl_hornet.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.i: cmake_force
@@ -1486,7 +1500,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hor
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj: ulog/ulog_lisum_power_hornet_act_data.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_102) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_power_hornet_act_data.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.i: cmake_force
@@ -1500,7 +1514,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_ac
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj: ulog/ulog_lisum_power_motor_data.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_103) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_power_motor_data.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.i: cmake_force
@@ -1514,7 +1528,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_dat
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj: ulog/ulog_lisum_power_motor_scaled_data.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_104) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_power_motor_scaled_data.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.i: cmake_force
@@ -1525,10 +1539,24 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_sca
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.s"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_power_motor_scaled_data.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.s
 
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj: ulog/ulog_lisum_propulsion_tb_status.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_propulsion_tb_status.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_propulsion_tb_status.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_propulsion_tb_status.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.s
+
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj: ulog/ulog_lisum_sensor_airspeed_data.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_105) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_sensor_airspeed_data.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.i: cmake_force
@@ -1539,10 +1567,178 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.s"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_sensor_airspeed_data.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.s
 
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj: ulog/ulog_lisum_vesc_ping.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_ping.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_ping.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_ping.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj: ulog/ulog_lisum_vesc_set_current.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_current.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_current.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_current.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj: ulog/ulog_lisum_vesc_set_current_brake.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_current_brake.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_current_brake.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_current_brake.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj: ulog/ulog_lisum_vesc_set_duty.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_duty.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_duty.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_duty.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj: ulog/ulog_lisum_vesc_set_pos.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_pos.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_pos.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_pos.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj: ulog/ulog_lisum_vesc_set_rpm.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_rpm.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_rpm.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_set_rpm.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj: ulog/ulog_lisum_vesc_status_1.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_1.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_1.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_1.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj: ulog/ulog_lisum_vesc_status_2.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_2.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_2.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_2.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj: ulog/ulog_lisum_vesc_status_3.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_3.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_3.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_3.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj: ulog/ulog_lisum_vesc_status_4.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_4.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_4.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_4.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj: ulog/ulog_lisum_vesc_status_5.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_5.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_5.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_5.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.s
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj: ulog/ulog_lisum_vesc_status_6.c
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_6.c"
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.i"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_6.c" > CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.i
+
+src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.s"
+	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_lisum_vesc_status_6.c" -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.s
+
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj: ulog/ulog_local_position_ned.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_106) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_local_position_ned.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.i: cmake_force
@@ -1556,7 +1752,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj: ulog/ulog_local_position_ned_cov.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_107) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_local_position_ned_cov.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.i: cmake_force
@@ -1570,7 +1766,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_co
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj: ulog/ulog_local_position_ned_system_global_offset.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_108) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_local_position_ned_system_global_offset.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.i: cmake_force
@@ -1584,7 +1780,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_sy
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.obj: ulog/ulog_log_data.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_109) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_log_data.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.i: cmake_force
@@ -1598,7 +1794,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_data.c.s: cmake_f
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.obj: ulog/ulog_log_entry.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_110) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_log_entry.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.i: cmake_force
@@ -1612,7 +1808,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_entry.c.s: cmake_
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.obj: ulog/ulog_log_erase.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_111) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_log_erase.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.i: cmake_force
@@ -1626,7 +1822,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_erase.c.s: cmake_
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.obj: ulog/ulog_log_request_data.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_112) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_log_request_data.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.i: cmake_force
@@ -1640,7 +1836,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_data.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.obj: ulog/ulog_log_request_end.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_113) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_log_request_end.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.i: cmake_force
@@ -1654,7 +1850,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_end.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.obj: ulog/ulog_log_request_list.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_114) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_128) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_log_request_list.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.i: cmake_force
@@ -1668,7 +1864,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_log_request_list.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.obj: ulog/ulog_logging_ack.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_115) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_129) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_logging_ack.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.i: cmake_force
@@ -1682,7 +1878,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_ack.c.s: cmak
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.obj: ulog/ulog_logging_data.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_116) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_130) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_logging_data.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.i: cmake_force
@@ -1696,7 +1892,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.obj: ulog/ulog_logging_data_acked.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_117) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_logging_data_acked.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.i: cmake_force
@@ -1710,7 +1906,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_logging_data_acked.c.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.obj: ulog/ulog_mag_cal_report.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_118) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mag_cal_report.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.i: cmake_force
@@ -1724,7 +1920,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mag_cal_report.c.s: c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.obj: ulog/ulog_manual_control.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_119) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_manual_control.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.i: cmake_force
@@ -1738,7 +1934,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_control.c.s: c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.obj: ulog/ulog_manual_setpoint.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_120) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_manual_setpoint.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.i: cmake_force
@@ -1752,7 +1948,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_manual_setpoint.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.obj: ulog/ulog_memory_vect.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_121) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_memory_vect.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.i: cmake_force
@@ -1766,7 +1962,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_memory_vect.c.s: cmak
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.obj: ulog/ulog_message_interval.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_122) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_message_interval.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.i: cmake_force
@@ -1780,7 +1976,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_message_interval.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.obj: ulog/ulog_mission_ack.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_123) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_ack.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.i: cmake_force
@@ -1794,7 +1990,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_ack.c.s: cmak
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.obj: ulog/ulog_mission_clear_all.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_124) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_clear_all.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.i: cmake_force
@@ -1808,7 +2004,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_clear_all.c.s
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.obj: ulog/ulog_mission_count.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_125) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_count.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.i: cmake_force
@@ -1822,7 +2018,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_count.c.s: cm
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.obj: ulog/ulog_mission_current.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_126) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_current.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.i: cmake_force
@@ -1836,7 +2032,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_current.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.obj: ulog/ulog_mission_item.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_127) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_item.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.i: cmake_force
@@ -1850,7 +2046,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.obj: ulog/ulog_mission_item_int.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_128) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_item_int.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.i: cmake_force
@@ -1864,7 +2060,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_int.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.c.obj: ulog/ulog_mission_item_reached.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_129) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_item_reached.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.c.i: cmake_force
@@ -1878,7 +2074,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_item_reached.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.obj: ulog/ulog_mission_request.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_130) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_request.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.i: cmake_force
@@ -1892,7 +2088,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c.obj: ulog/ulog_mission_request_int.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_131) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_145) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_request_int.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c.i: cmake_force
@@ -1906,7 +2102,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_int.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.c.obj: ulog/ulog_mission_request_list.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_132) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_146) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_request_list.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.c.i: cmake_force
@@ -1920,7 +2116,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_list.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_partial_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_partial_list.c.obj: ulog/ulog_mission_request_partial_list.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_partial_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_133) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_partial_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_147) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_partial_list.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_partial_list.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_partial_list.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_partial_list.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_request_partial_list.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_partial_list.c.i: cmake_force
@@ -1934,7 +2130,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_request_parti
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c.obj: ulog/ulog_mission_set_current.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_134) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_148) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_set_current.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c.i: cmake_force
@@ -1948,7 +2144,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_set_current.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial_list.c.obj: ulog/ulog_mission_write_partial_list.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_135) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_149) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial_list.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial_list.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial_list.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial_list.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mission_write_partial_list.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial_list.c.i: cmake_force
@@ -1962,7 +2158,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mission_write_partial
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.obj: ulog/ulog_mount_orientation.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_136) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_150) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_mount_orientation.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.i: cmake_force
@@ -1976,7 +2172,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_mount_orientation.c.s
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.obj: ulog/ulog_named_value_float.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_137) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_151) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_named_value_float.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.i: cmake_force
@@ -1990,7 +2186,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_float.c.s
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.obj: ulog/ulog_named_value_int.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_138) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_152) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_named_value_int.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.i: cmake_force
@@ -2004,7 +2200,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_named_value_int.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output.c.obj: ulog/ulog_nav_controller_output.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_139) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_153) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_nav_controller_output.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output.c.i: cmake_force
@@ -2018,7 +2214,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_nav_controller_output
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.obj: ulog/ulog_obstacle_distance.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_140) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_154) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_obstacle_distance.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.i: cmake_force
@@ -2032,7 +2228,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_obstacle_distance.c.s
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.obj: ulog/ulog_odometry.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_141) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_155) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_odometry.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.i: cmake_force
@@ -2046,7 +2242,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_odometry.c.s: cmake_f
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_status.c.obj: ulog/ulog_onboard_computer_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_142) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_status.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_156) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_status.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_onboard_computer_status.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_status.c.i: cmake_force
@@ -2060,7 +2256,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_onboard_computer_stat
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_status.c.obj: ulog/ulog_open_drone_id_arm_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_143) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_status.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_157) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_status.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_open_drone_id_arm_status.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_status.c.i: cmake_force
@@ -2074,7 +2270,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_arm_sta
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authentication.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authentication.c.obj: ulog/ulog_open_drone_id_authentication.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authentication.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_144) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authentication.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_158) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authentication.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authentication.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authentication.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authentication.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_open_drone_id_authentication.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authentication.c.i: cmake_force
@@ -2088,7 +2284,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_authent
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_id.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_id.c.obj: ulog/ulog_open_drone_id_basic_id.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_id.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_145) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_159) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_id.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_id.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_id.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_id.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_open_drone_id_basic_id.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_id.c.i: cmake_force
@@ -2102,7 +2298,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_basic_i
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_location.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_location.c.obj: ulog/ulog_open_drone_id_location.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_location.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_146) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_location.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_160) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_location.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_location.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_location.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_location.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_open_drone_id_location.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_location.c.i: cmake_force
@@ -2116,7 +2312,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_locatio
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message_pack.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message_pack.c.obj: ulog/ulog_open_drone_id_message_pack.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message_pack.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_147) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message_pack.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_161) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message_pack.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message_pack.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message_pack.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message_pack.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_open_drone_id_message_pack.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message_pack.c.i: cmake_force
@@ -2130,7 +2326,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_message
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operator_id.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operator_id.c.obj: ulog/ulog_open_drone_id_operator_id.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operator_id.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_148) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operator_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_162) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operator_id.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operator_id.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operator_id.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operator_id.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_open_drone_id_operator_id.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operator_id.c.i: cmake_force
@@ -2144,7 +2340,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_operato
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id.c.obj: ulog/ulog_open_drone_id_self_id.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_149) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_163) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_open_drone_id_self_id.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id.c.i: cmake_force
@@ -2158,7 +2354,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_self_id
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.c.obj: ulog/ulog_open_drone_id_system.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_150) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_164) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_open_drone_id_system.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.c.i: cmake_force
@@ -2172,7 +2368,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_update.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_update.c.obj: ulog/ulog_open_drone_id_system_update.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_update.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_151) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_update.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_165) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_update.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_update.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_update.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_update.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_open_drone_id_system_update.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_update.c.i: cmake_force
@@ -2186,7 +2382,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_open_drone_id_system_
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.obj: ulog/ulog_optical_flow.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_152) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_optical_flow.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.i: cmake_force
@@ -2200,7 +2396,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.obj: ulog/ulog_optical_flow_rad.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_153) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_optical_flow_rad.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.i: cmake_force
@@ -2214,7 +2410,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_optical_flow_rad.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_status.c.obj: ulog/ulog_orbit_execution_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_154) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_status.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_status.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_orbit_execution_status.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_status.c.i: cmake_force
@@ -2228,7 +2424,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_orbit_execution_statu
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.obj: ulog/ulog_param_ext_ack.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_155) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_ext_ack.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.i: cmake_force
@@ -2242,7 +2438,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_ack.c.s: cm
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_list.c.obj: ulog/ulog_param_ext_request_list.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_156) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_list.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_list.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_list.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_list.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_ext_request_list.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_list.c.i: cmake_force
@@ -2256,7 +2452,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_lis
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_read.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_read.c.obj: ulog/ulog_param_ext_request_read.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_read.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_157) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_read.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_read.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_read.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_read.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_read.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_ext_request_read.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_read.c.i: cmake_force
@@ -2270,7 +2466,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_request_rea
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.obj: ulog/ulog_param_ext_set.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_158) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_ext_set.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.i: cmake_force
@@ -2284,7 +2480,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_set.c.s: cm
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.obj: ulog/ulog_param_ext_value.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_159) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_173) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_ext_value.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.i: cmake_force
@@ -2298,7 +2494,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_ext_value.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.obj: ulog/ulog_param_map_rc.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_160) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_map_rc.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.i: cmake_force
@@ -2312,7 +2508,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_map_rc.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.obj: ulog/ulog_param_request_list.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_161) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_175) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_request_list.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.i: cmake_force
@@ -2326,7 +2522,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_list.c.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.obj: ulog/ulog_param_request_read.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_162) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_request_read.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.i: cmake_force
@@ -2340,7 +2536,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_request_read.c.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.obj: ulog/ulog_param_set.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_163) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_177) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_set.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.i: cmake_force
@@ -2354,7 +2550,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_set.c.s: cmake_
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.obj: ulog/ulog_param_value.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_164) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_param_value.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.i: cmake_force
@@ -2368,7 +2564,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_param_value.c.s: cmak
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.obj: ulog/ulog_ping.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_165) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_179) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_ping.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.i: cmake_force
@@ -2382,7 +2578,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_ping.c.s: cmake_force
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.obj: ulog/ulog_play_tune.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_166) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_180) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_play_tune.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.i: cmake_force
@@ -2396,7 +2592,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune.c.s: cmake_
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.obj: ulog/ulog_play_tune_v2.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_167) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_play_tune_v2.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.i: cmake_force
@@ -2410,7 +2606,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_play_tune_v2.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_global_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_global_int.c.obj: ulog/ulog_position_target_global_int.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_global_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_168) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_global_int.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_182) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_global_int.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_global_int.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_global_int.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_global_int.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_position_target_global_int.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_global_int.c.i: cmake_force
@@ -2424,7 +2620,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_globa
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local_ned.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local_ned.c.obj: ulog/ulog_position_target_local_ned.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local_ned.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_169) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local_ned.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local_ned.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local_ned.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local_ned.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local_ned.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_position_target_local_ned.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local_ned.c.i: cmake_force
@@ -2438,7 +2634,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_position_target_local
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.obj: ulog/ulog_power_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_170) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_184) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_power_status.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.i: cmake_force
@@ -2452,7 +2648,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_power_status.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.obj: ulog/ulog_protocol_version.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_171) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_185) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_protocol_version.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.i: cmake_force
@@ -2466,7 +2662,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_protocol_version.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.obj: ulog/ulog_radio_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_172) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_186) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_radio_status.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.i: cmake_force
@@ -2480,7 +2676,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_radio_status.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.obj: ulog/ulog_raw_imu.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_173) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_187) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_raw_imu.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.i: cmake_force
@@ -2494,7 +2690,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_imu.c.s: cmake_fo
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.obj: ulog/ulog_raw_pressure.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_174) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_188) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_raw_pressure.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.i: cmake_force
@@ -2508,7 +2704,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_pressure.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.obj: ulog/ulog_raw_rpm.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_175) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_189) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_raw_rpm.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.i: cmake_force
@@ -2522,7 +2718,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_raw_rpm.c.s: cmake_fo
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.obj: ulog/ulog_rc_channels.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_176) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_190) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_rc_channels.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.i: cmake_force
@@ -2536,7 +2732,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels.c.s: cmak
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.c.obj: ulog/ulog_rc_channels_override.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_177) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_191) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_rc_channels_override.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.c.i: cmake_force
@@ -2550,7 +2746,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_override.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.obj: ulog/ulog_rc_channels_raw.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_178) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_192) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_rc_channels_raw.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.i: cmake_force
@@ -2564,7 +2760,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_raw.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.obj: ulog/ulog_rc_channels_scaled.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_179) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_193) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_rc_channels_scaled.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.i: cmake_force
@@ -2578,7 +2774,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_rc_channels_scaled.c.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c.obj: ulog/ulog_request_data_stream.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_180) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_194) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_request_data_stream.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c.i: cmake_force
@@ -2592,7 +2788,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_data_stream.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.obj: ulog/ulog_request_event.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_181) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_195) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_request_event.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.i: cmake_force
@@ -2606,7 +2802,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_request_event.c.s: cm
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.obj: ulog/ulog_resource_request.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_182) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_196) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_resource_request.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.i: cmake_force
@@ -2620,7 +2816,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_resource_request.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.c.obj: ulog/ulog_response_event_error.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_183) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_197) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_response_event_error.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.c.i: cmake_force
@@ -2634,7 +2830,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_response_event_error.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c.obj: ulog/ulog_safety_allowed_area.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_184) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_198) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_safety_allowed_area.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c.i: cmake_force
@@ -2648,7 +2844,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_allowed_area.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_area.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_area.c.obj: ulog/ulog_safety_set_allowed_area.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_area.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_185) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_area.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_199) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_area.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_area.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_area.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_area.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_safety_set_allowed_area.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_area.c.i: cmake_force
@@ -2662,7 +2858,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_safety_set_allowed_ar
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.obj: ulog/ulog_scaled_imu.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_186) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_200) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_scaled_imu.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.i: cmake_force
@@ -2676,7 +2872,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu.c.s: cmake
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.obj: ulog/ulog_scaled_imu2.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_187) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_201) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_scaled_imu2.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.i: cmake_force
@@ -2690,7 +2886,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu2.c.s: cmak
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.obj: ulog/ulog_scaled_imu3.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_188) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_202) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_scaled_imu3.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.i: cmake_force
@@ -2704,7 +2900,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_imu3.c.s: cmak
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.obj: ulog/ulog_scaled_pressure.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_189) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_203) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_scaled_pressure.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.i: cmake_force
@@ -2718,7 +2914,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.obj: ulog/ulog_scaled_pressure2.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_190) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_204) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_scaled_pressure2.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.i: cmake_force
@@ -2732,7 +2928,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure2.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.obj: ulog/ulog_scaled_pressure3.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_191) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_205) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_scaled_pressure3.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.i: cmake_force
@@ -2746,7 +2942,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_scaled_pressure3.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.obj: ulog/ulog_serial_control.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_192) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_206) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_serial_control.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.i: cmake_force
@@ -2760,7 +2956,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_serial_control.c.s: c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.obj: ulog/ulog_servo_output_raw.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_193) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_207) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_servo_output_raw.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.i: cmake_force
@@ -2774,7 +2970,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_servo_output_raw.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_target.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_target.c.obj: ulog/ulog_set_actuator_control_target.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_target.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_194) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_target.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_208) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_target.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_target.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_target.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_target.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_set_actuator_control_target.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_target.c.i: cmake_force
@@ -2788,7 +2984,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_actuator_control_
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c.obj: ulog/ulog_set_attitude_target.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_195) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_209) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_set_attitude_target.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c.i: cmake_force
@@ -2802,7 +2998,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_attitude_target.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin.c.obj: ulog/ulog_set_gps_global_origin.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_196) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_210) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_set_gps_global_origin.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin.c.i: cmake_force
@@ -2816,7 +3012,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_gps_global_origin
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.obj: ulog/ulog_set_home_position.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_197) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_211) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_set_home_position.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.i: cmake_force
@@ -2830,7 +3026,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_home_position.c.s
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.obj: ulog/ulog_set_mode.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_198) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_212) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_set_mode.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.i: cmake_force
@@ -2844,7 +3040,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_mode.c.s: cmake_f
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_global_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_global_int.c.obj: ulog/ulog_set_position_target_global_int.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_global_int.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_199) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_global_int.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_213) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_global_int.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_global_int.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_global_int.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_global_int.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_set_position_target_global_int.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_global_int.c.i: cmake_force
@@ -2858,7 +3054,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_g
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_local_ned.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_local_ned.c.obj: ulog/ulog_set_position_target_local_ned.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_local_ned.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_200) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_local_ned.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_214) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_local_ned.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_local_ned.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_local_ned.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_local_ned.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_set_position_target_local_ned.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_local_ned.c.i: cmake_force
@@ -2872,7 +3068,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_set_position_target_l
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.obj: ulog/ulog_setup_signing.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_201) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_215) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_setup_signing.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.i: cmake_force
@@ -2886,7 +3082,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_setup_signing.c.s: cm
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.obj: ulog/ulog_sim_state.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_202) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_216) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_sim_state.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.i: cmake_force
@@ -2900,7 +3096,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sim_state.c.s: cmake_
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.obj: ulog/ulog_smart_battery_info.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_203) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_217) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_smart_battery_info.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.i: cmake_force
@@ -2914,7 +3110,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_smart_battery_info.c.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.obj: ulog/ulog_statustext.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_204) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_218) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_statustext.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.i: cmake_force
@@ -2928,7 +3124,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_statustext.c.s: cmake
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c.obj: ulog/ulog_storage_information.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_205) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_219) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_storage_information.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c.i: cmake_force
@@ -2942,7 +3138,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_storage_information.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.obj: ulog/ulog_supported_tunes.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_206) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_220) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_supported_tunes.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.i: cmake_force
@@ -2956,7 +3152,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_supported_tunes.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.obj: ulog/ulog_sys_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_207) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_221) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_sys_status.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.i: cmake_force
@@ -2970,7 +3166,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_sys_status.c.s: cmake
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.obj: ulog/ulog_system_time.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_208) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_222) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_system_time.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.i: cmake_force
@@ -2984,7 +3180,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_system_time.c.s: cmak
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.obj: ulog/ulog_terrain_check.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_209) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_223) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_terrain_check.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.i: cmake_force
@@ -2998,7 +3194,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_check.c.s: cm
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.obj: ulog/ulog_terrain_data.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_210) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_224) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_terrain_data.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.i: cmake_force
@@ -3012,7 +3208,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_data.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.obj: ulog/ulog_terrain_report.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_211) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_225) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_terrain_report.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.i: cmake_force
@@ -3026,7 +3222,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_report.c.s: c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.obj: ulog/ulog_terrain_request.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_212) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_226) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_terrain_request.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.i: cmake_force
@@ -3040,7 +3236,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_terrain_request.c.s: 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_target.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_target.c.obj: ulog/ulog_time_estimate_to_target.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_target.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_213) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_target.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_227) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_target.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_target.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_target.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_target.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_time_estimate_to_target.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_target.c.i: cmake_force
@@ -3054,7 +3250,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_time_estimate_to_targ
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.obj: ulog/ulog_timesync.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_214) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_228) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_timesync.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.i: cmake_force
@@ -3068,7 +3264,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_timesync.c.s: cmake_f
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_bezier.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_bezier.c.obj: ulog/ulog_trajectory_representation_bezier.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_bezier.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_215) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_bezier.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_229) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_bezier.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_bezier.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_bezier.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_bezier.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_trajectory_representation_bezier.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_bezier.c.i: cmake_force
@@ -3082,7 +3278,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representa
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_waypoints.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_waypoints.c.obj: ulog/ulog_trajectory_representation_waypoints.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_waypoints.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_216) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_waypoints.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_230) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_waypoints.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_waypoints.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_waypoints.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_waypoints.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_trajectory_representation_waypoints.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representation_waypoints.c.i: cmake_force
@@ -3096,7 +3292,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_trajectory_representa
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.obj: ulog/ulog_tunnel.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_217) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_231) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_tunnel.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.i: cmake_force
@@ -3110,7 +3306,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_tunnel.c.s: cmake_for
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.obj: ulog/ulog_uavcan_node_info.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_218) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_232) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_uavcan_node_info.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.i: cmake_force
@@ -3124,7 +3320,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_info.c.s:
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.obj: ulog/ulog_uavcan_node_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_219) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_233) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_uavcan_node_status.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.i: cmake_force
@@ -3138,7 +3334,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_uavcan_node_status.c.
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c.obj: ulog/ulog_utm_global_position.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_220) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_234) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_utm_global_position.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c.i: cmake_force
@@ -3152,7 +3348,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_utm_global_position.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.obj: ulog/ulog_v2_extension.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_221) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_235) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_v2_extension.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.i: cmake_force
@@ -3166,7 +3362,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_v2_extension.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.obj: ulog/ulog_vfr_hud.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_222) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_236) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_vfr_hud.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.i: cmake_force
@@ -3180,7 +3376,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vfr_hud.c.s: cmake_fo
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.obj: ulog/ulog_vibration.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_223) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_237) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_vibration.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.i: cmake_force
@@ -3194,7 +3390,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vibration.c.s: cmake_
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estimate.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estimate.c.obj: ulog/ulog_vicon_position_estimate.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estimate.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_224) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estimate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_238) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estimate.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estimate.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estimate.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estimate.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_vicon_position_estimate.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estimate.c.i: cmake_force
@@ -3208,7 +3404,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vicon_position_estima
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_information.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_information.c.obj: ulog/ulog_video_stream_information.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_information.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_225) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_information.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_239) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_information.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_information.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_information.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_information.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_video_stream_information.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_information.c.i: cmake_force
@@ -3222,7 +3418,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_informat
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c.obj: ulog/ulog_video_stream_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_226) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_240) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_video_stream_status.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c.i: cmake_force
@@ -3236,7 +3432,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_video_stream_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estimate.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estimate.c.obj: ulog/ulog_vision_position_estimate.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estimate.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_227) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estimate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_241) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estimate.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estimate.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estimate.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estimate.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_vision_position_estimate.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estimate.c.i: cmake_force
@@ -3250,7 +3446,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_position_estim
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate.c.obj: ulog/ulog_vision_speed_estimate.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_228) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_242) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_vision_speed_estimate.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate.c.i: cmake_force
@@ -3264,7 +3460,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_vision_speed_estimate
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.obj: ulog/ulog_wheel_distance.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_229) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_243) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_wheel_distance.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.i: cmake_force
@@ -3278,7 +3474,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wheel_distance.c.s: c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.obj: ulog/ulog_wifi_config_ap.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_230) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_244) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_wifi_config_ap.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.i: cmake_force
@@ -3292,7 +3488,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wifi_config_ap.c.s: c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.obj: ulog/ulog_winch_status.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_231) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_245) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_winch_status.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.i: cmake_force
@@ -3306,7 +3502,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_winch_status.c.s: cma
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.obj: ulog/ulog_wind_cov.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_232) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_246) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.obj -MF CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.obj.d -o CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/ulog/ulog_wind_cov.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.i: cmake_force
@@ -3320,7 +3516,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_wind_cov.c.s: cmake_f
 src/middleware/ulog/CMakeFiles/ulog.dir/ulog.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/ulog.c.obj: ../src/middleware/ulog/ulog.c
 src/middleware/ulog/CMakeFiles/ulog.dir/ulog.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_233) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/ulog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_247) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/ulog.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/ulog.c.obj -MF CMakeFiles/ulog.dir/ulog.c.obj.d -o CMakeFiles/ulog.dir/ulog.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/src/middleware/ulog/ulog.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/ulog.c.i: cmake_force
@@ -3334,7 +3530,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/ulog.c.s: cmake_force
 src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.obj: ../src/middleware/lfs/littlefs/lfs.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_234) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_248) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.obj -MF CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.obj.d -o CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/src/middleware/lfs/littlefs/lfs.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.i: cmake_force
@@ -3348,7 +3544,7 @@ src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs.c.s: cmake_force
 src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/flags.make
 src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.obj: ../src/middleware/lfs/littlefs/lfs_util.c
 src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.obj: src/middleware/ulog/CMakeFiles/ulog.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_235) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_249) "Building C object src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.obj"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && /usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.obj -MF CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.obj.d -o CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.obj -c "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/src/middleware/lfs/littlefs/lfs_util.c"
 
 src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.i: cmake_force
@@ -3460,12 +3656,26 @@ ulog_OBJECTS = \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_isbd_link_status.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_landing_target.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_link_node_status.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj" \
+"CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj" \
 "CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj" \
@@ -3699,12 +3909,26 @@ src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_isbd_link_status.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_landing_target.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_link_node_status.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_esc_status.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_gnss_recv_data.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_manual_ctrl_hornet.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_hornet_act_data.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_data.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_power_motor_scaled_data.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_propulsion_tb_status.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_sensor_airspeed_data.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_ping.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_current_brake.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_duty.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_pos.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_set_rpm.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_1.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_2.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_3.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_4.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_5.c.obj
+src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_lisum_vesc_status_6.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_cov.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/__/__/ulog/ulog_local_position_ned_system_global_offset.c.obj
@@ -3837,7 +4061,7 @@ src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/li
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/__/lfs/littlefs/lfs_util.c.obj
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/build.make
 src/middleware/ulog/libulog.a: src/middleware/ulog/CMakeFiles/ulog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_236) "Linking C static library libulog.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_250) "Linking C static library libulog.a"
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && $(CMAKE_COMMAND) -P CMakeFiles/ulog.dir/cmake_clean_target.cmake
 	cd "/home/vuk/Documents/BTP/alex test/pwm_sync/esc/build/src/middleware/ulog" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ulog.dir/link.txt --verbose=$(VERBOSE)
 

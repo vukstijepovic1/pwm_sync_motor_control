@@ -491,6 +491,141 @@ static void mavlink_test_lisum_manual_ctrl_hornet(uint8_t system_id, uint8_t com
 #endif
 }
 
+static void mavlink_test_lisum_esc_status(uint8_t system_id, uint8_t component_id, mavlink_message_t *last_msg)
+{
+#ifdef MAVLINK_STATUS_FLAG_OUT_MAVLINK1
+    mavlink_status_t *status = mavlink_get_channel_status(MAVLINK_COMM_0);
+        if ((status->flags & MAVLINK_STATUS_FLAG_OUT_MAVLINK1) && MAVLINK_MSG_ID_LISUM_ESC_STATUS >= 256) {
+            return;
+        }
+#endif
+    mavlink_message_t msg;
+        uint8_t buffer[MAVLINK_MAX_PACKET_LEN];
+        uint16_t i;
+    mavlink_lisum_esc_status_t packet_in = {
+        { 17.0, 18.0 },{ 73.0, 74.0 },{ 129.0, 130.0 },{ 185.0, 186.0 },{ 241.0, 242.0 },{ 297.0, 298.0 },{ 353.0, 354.0 },{ 409.0, 410.0 },{ 465.0, 466.0 },221
+    };
+    mavlink_lisum_esc_status_t packet1, packet2;
+        memset(&packet1, 0, sizeof(packet1));
+        packet1.index = packet_in.index;
+        
+        mav_array_memcpy(packet1.voltage, packet_in.voltage, sizeof(float)*2);
+        mav_array_memcpy(packet1.curr_motor, packet_in.curr_motor, sizeof(float)*2);
+        mav_array_memcpy(packet1.current, packet_in.current, sizeof(float)*2);
+        mav_array_memcpy(packet1.temp_fet, packet_in.temp_fet, sizeof(float)*2);
+        mav_array_memcpy(packet1.temp_motor, packet_in.temp_motor, sizeof(float)*2);
+        mav_array_memcpy(packet1.rpm, packet_in.rpm, sizeof(float)*2);
+        mav_array_memcpy(packet1.duty, packet_in.duty, sizeof(float)*2);
+        mav_array_memcpy(packet1.energy_consumed, packet_in.energy_consumed, sizeof(float)*2);
+        mav_array_memcpy(packet1.curr_consumed, packet_in.curr_consumed, sizeof(float)*2);
+        
+#ifdef MAVLINK_STATUS_FLAG_OUT_MAVLINK1
+        if (status->flags & MAVLINK_STATUS_FLAG_OUT_MAVLINK1) {
+           // cope with extensions
+           memset(MAVLINK_MSG_ID_LISUM_ESC_STATUS_MIN_LEN + (char *)&packet1, 0, sizeof(packet1)-MAVLINK_MSG_ID_LISUM_ESC_STATUS_MIN_LEN);
+        }
+#endif
+        memset(&packet2, 0, sizeof(packet2));
+    mavlink_msg_lisum_esc_status_encode(system_id, component_id, &msg, &packet1);
+    mavlink_msg_lisum_esc_status_decode(&msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+        memset(&packet2, 0, sizeof(packet2));
+    mavlink_msg_lisum_esc_status_pack(system_id, component_id, &msg , packet1.index , packet1.voltage , packet1.curr_motor , packet1.current , packet1.temp_fet , packet1.temp_motor , packet1.rpm , packet1.duty , packet1.energy_consumed , packet1.curr_consumed );
+    mavlink_msg_lisum_esc_status_decode(&msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+        memset(&packet2, 0, sizeof(packet2));
+    mavlink_msg_lisum_esc_status_pack_chan(system_id, component_id, MAVLINK_COMM_0, &msg , packet1.index , packet1.voltage , packet1.curr_motor , packet1.current , packet1.temp_fet , packet1.temp_motor , packet1.rpm , packet1.duty , packet1.energy_consumed , packet1.curr_consumed );
+    mavlink_msg_lisum_esc_status_decode(&msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+        memset(&packet2, 0, sizeof(packet2));
+        mavlink_msg_to_send_buffer(buffer, &msg);
+        for (i=0; i<mavlink_msg_get_send_buffer_length(&msg); i++) {
+            comm_send_ch(MAVLINK_COMM_0, buffer[i]);
+        }
+    mavlink_msg_lisum_esc_status_decode(last_msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+        
+        memset(&packet2, 0, sizeof(packet2));
+    mavlink_msg_lisum_esc_status_send(MAVLINK_COMM_1 , packet1.index , packet1.voltage , packet1.curr_motor , packet1.current , packet1.temp_fet , packet1.temp_motor , packet1.rpm , packet1.duty , packet1.energy_consumed , packet1.curr_consumed );
+    mavlink_msg_lisum_esc_status_decode(last_msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+#ifdef MAVLINK_HAVE_GET_MESSAGE_INFO
+    MAVLINK_ASSERT(mavlink_get_message_info_by_name("LISUM_ESC_STATUS") != NULL);
+    MAVLINK_ASSERT(mavlink_get_message_info_by_id(MAVLINK_MSG_ID_LISUM_ESC_STATUS) != NULL);
+#endif
+}
+
+static void mavlink_test_lisum_propulsion_tb_status(uint8_t system_id, uint8_t component_id, mavlink_message_t *last_msg)
+{
+#ifdef MAVLINK_STATUS_FLAG_OUT_MAVLINK1
+    mavlink_status_t *status = mavlink_get_channel_status(MAVLINK_COMM_0);
+        if ((status->flags & MAVLINK_STATUS_FLAG_OUT_MAVLINK1) && MAVLINK_MSG_ID_LISUM_PROPULSION_TB_STATUS >= 256) {
+            return;
+        }
+#endif
+    mavlink_message_t msg;
+        uint8_t buffer[MAVLINK_MAX_PACKET_LEN];
+        uint16_t i;
+    mavlink_lisum_propulsion_tb_status_t packet_in = {
+        17.0,45.0,73.0,101.0,129.0,157.0,185.0,213.0,241.0
+    };
+    mavlink_lisum_propulsion_tb_status_t packet1, packet2;
+        memset(&packet1, 0, sizeof(packet1));
+        packet1.voltage = packet_in.voltage;
+        packet1.current = packet_in.current;
+        packet1.rpm = packet_in.rpm;
+        packet1.temp_motor = packet_in.temp_motor;
+        packet1.temp_inverter = packet_in.temp_inverter;
+        packet1.temp_ambient = packet_in.temp_ambient;
+        packet1.torque = packet_in.torque;
+        packet1.thrust = packet_in.thrust;
+        packet1.throttle = packet_in.throttle;
+        
+        
+#ifdef MAVLINK_STATUS_FLAG_OUT_MAVLINK1
+        if (status->flags & MAVLINK_STATUS_FLAG_OUT_MAVLINK1) {
+           // cope with extensions
+           memset(MAVLINK_MSG_ID_LISUM_PROPULSION_TB_STATUS_MIN_LEN + (char *)&packet1, 0, sizeof(packet1)-MAVLINK_MSG_ID_LISUM_PROPULSION_TB_STATUS_MIN_LEN);
+        }
+#endif
+        memset(&packet2, 0, sizeof(packet2));
+    mavlink_msg_lisum_propulsion_tb_status_encode(system_id, component_id, &msg, &packet1);
+    mavlink_msg_lisum_propulsion_tb_status_decode(&msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+        memset(&packet2, 0, sizeof(packet2));
+    mavlink_msg_lisum_propulsion_tb_status_pack(system_id, component_id, &msg , packet1.voltage , packet1.current , packet1.rpm , packet1.temp_motor , packet1.temp_inverter , packet1.temp_ambient , packet1.torque , packet1.thrust , packet1.throttle );
+    mavlink_msg_lisum_propulsion_tb_status_decode(&msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+        memset(&packet2, 0, sizeof(packet2));
+    mavlink_msg_lisum_propulsion_tb_status_pack_chan(system_id, component_id, MAVLINK_COMM_0, &msg , packet1.voltage , packet1.current , packet1.rpm , packet1.temp_motor , packet1.temp_inverter , packet1.temp_ambient , packet1.torque , packet1.thrust , packet1.throttle );
+    mavlink_msg_lisum_propulsion_tb_status_decode(&msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+        memset(&packet2, 0, sizeof(packet2));
+        mavlink_msg_to_send_buffer(buffer, &msg);
+        for (i=0; i<mavlink_msg_get_send_buffer_length(&msg); i++) {
+            comm_send_ch(MAVLINK_COMM_0, buffer[i]);
+        }
+    mavlink_msg_lisum_propulsion_tb_status_decode(last_msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+        
+        memset(&packet2, 0, sizeof(packet2));
+    mavlink_msg_lisum_propulsion_tb_status_send(MAVLINK_COMM_1 , packet1.voltage , packet1.current , packet1.rpm , packet1.temp_motor , packet1.temp_inverter , packet1.temp_ambient , packet1.torque , packet1.thrust , packet1.throttle );
+    mavlink_msg_lisum_propulsion_tb_status_decode(last_msg, &packet2);
+        MAVLINK_ASSERT(memcmp(&packet1, &packet2, sizeof(packet1)) == 0);
+
+#ifdef MAVLINK_HAVE_GET_MESSAGE_INFO
+    MAVLINK_ASSERT(mavlink_get_message_info_by_name("LISUM_PROPULSION_TB_STATUS") != NULL);
+    MAVLINK_ASSERT(mavlink_get_message_info_by_id(MAVLINK_MSG_ID_LISUM_PROPULSION_TB_STATUS) != NULL);
+#endif
+}
+
 static void mavlink_test_lisum(uint8_t system_id, uint8_t component_id, mavlink_message_t *last_msg)
 {
     mavlink_test_lisum_power_motor_data(system_id, component_id, last_msg);
@@ -499,6 +634,8 @@ static void mavlink_test_lisum(uint8_t system_id, uint8_t component_id, mavlink_
     mavlink_test_lisum_sensor_airspeed_data(system_id, component_id, last_msg);
     mavlink_test_lisum_gnss_recv_data(system_id, component_id, last_msg);
     mavlink_test_lisum_manual_ctrl_hornet(system_id, component_id, last_msg);
+    mavlink_test_lisum_esc_status(system_id, component_id, last_msg);
+    mavlink_test_lisum_propulsion_tb_status(system_id, component_id, last_msg);
 }
 
 #ifdef __cplusplus

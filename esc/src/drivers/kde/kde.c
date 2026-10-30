@@ -12,9 +12,9 @@
 #include "kde.h"
 #include "kde_helper.h"
 
-#include "types.h"
+
 #include "can.h"
-#include "mav.h"
+
 #include "pwm.h"
 #include "uart.h"
 #include "util.h"
@@ -107,30 +107,44 @@ lStatus_t kde_pwm_init(void)
 
 lStatus_t kde_set_pwm(uint8_t esc_id, int16_t pwm)
 {
-    can_hal_msg_t tx;
-    pwm_hal_channel_t ch;
+#if KDE_USE_PWM
+    /* Put the value on this ESC's dedicated PWM pin (if it has one),
+     * glitch-free - NEXT_RST applies it at the next period rollover instead
+     * of forcing an immediate counter reset. */
+    {
+        pwm_hal_channel_t ch;
 
-    prepare_tx_can_msg(&tx,
-                       CAN_OBJECT_SET_PWM,
-                       MINE_CAN_ID,
-                       esc_id,
-                       2,
-                       CAN_HAL_ID_FORMAT_EXT,
-                       CAN_HAL_DATA_FRAME);
-
-    tx.data[0] = (pwm >> 8) & 0xFF;
-    tx.data[1] = (pwm >> 0) & 0xFF;
-
-    /* Mirror the same value onto this ESC's dedicated PWM pin (if any),
-     * glitch-free -
-     * NEXT_RST applies it at the next period rollover instead of forcing an
-     * immediate counter reset. */
-    if(kde_pwm_channel_for_esc(esc_id, &ch) == lStatus_Success){
-        HAL_PWM_MatchUpdate(KDE_PWM_HAL_INSTANCE, ch,
-                            (uint32_t)pwm, PWM_HAL_MATCH_UPDATE_NEXT_RST);
+        if(kde_pwm_channel_for_esc(esc_id, &ch) == lStatus_Success){
+            HAL_PWM_MatchUpdate(KDE_PWM_HAL_INSTANCE, ch,
+                                (uint32_t)pwm, PWM_HAL_MATCH_UPDATE_NEXT_RST);
+        }
     }
-    
-    return HAL_CAN_SendMessage(KDE_CAN_HAL_INSTANCE, &tx, KDE_CAN_TIMEOUT);
+#endif
+
+#if KDE_USE_CAN_THROTTLE
+    {
+        can_hal_msg_t tx;
+
+        /* DLC 8 like KDE's own arming example (04 4c 00 00 00 00 00 00);
+         * bytes 2..7 are already zero from prepare_tx_can_msg's memset. */
+        prepare_tx_can_msg(&tx,
+                           CAN_OBJECT_SET_PWM,
+                           MINE_CAN_ID,
+                           esc_id,
+                           8,
+                           CAN_HAL_ID_FORMAT_EXT,
+                           CAN_HAL_DATA_FRAME);
+
+        tx.data[0] = (pwm >> 8) & 0xFF;
+        tx.data[1] = (pwm >> 0) & 0xFF;
+
+        return HAL_CAN_SendMessage(KDE_CAN_HAL_INSTANCE, &tx, KDE_CAN_TIMEOUT);
+    }
+#else
+    (void)esc_id;
+    (void)pwm;
+    return lStatus_Success;
+#endif
 }
 
 
@@ -278,8 +292,44 @@ lStatus_t kde_arming(uint8_t esc_id){
 
     lStatus_t s = lStatus_Success;
 
+    /* Object 32 (TURN_OFF) leaves the ESC idle with arming disabled "until
+     * restart command is issued", so clear that first - otherwise a single
+     * earlier shutdown makes every later arm silently impossible. Harmless on
+     * an ESC that was never shut down. */
+    kde_reset(esc_id);
+    local_delay_ms(KDE_RESTART_SETTLE_MS);
+
     for (uint32_t i = 0; i < 600; i++) {
         s = kde_set_pwm(esc_id, KDE_MINIMUM_PWM);
+        local_delay_ms(5);
+    }
+
+    return s;
+}
+
+lStatus_t kde_arm_all(void){
+
+    lStatus_t s = lStatus_Success;
+    lStatus_t r = lStatus_Success;
+
+    /* See kde_arming(): re-enable arming on every ESC before holding idle. */
+    for (uint32_t j = 0; j < KDE_PWM_CHANNEL_PWM_LEN; j++)
+        kde_reset(kde_pwm_channel_map[j].id);
+
+    local_delay_ms(KDE_RESTART_SETTLE_MS);
+
+    for (uint32_t i = 0; i < 600; i++) {
+
+        /* Only the last round decides the result, as in kde_arming(): early
+         * frames can go unacknowledged while the ESCs are still booting
+         * from the restart, which is not a failed arm. */
+        s = lStatus_Success;
+
+        for (uint32_t j = 0; j < KDE_PWM_CHANNEL_PWM_LEN; j++) {
+
+            r = kde_set_pwm(kde_pwm_channel_map[j].id, KDE_MINIMUM_PWM);
+            if (r != lStatus_Success) s = r;
+        }
         local_delay_ms(5);
     }
 

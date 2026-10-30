@@ -17,6 +17,8 @@ src/middleware/mav/CMakeFiles/mav.dir/mav.c.obj: \
  /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_sensor_airspeed_data.h \
  /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_gnss_recv_data.h \
  /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_manual_ctrl_hornet.h \
+ /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_esc_status.h \
+ /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_propulsion_tb_status.h \
  /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/../common/common.h \
  /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/../common/./mavlink_msg_sys_status.h \
  /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/../common/./mavlink_msg_system_time.h \
@@ -265,6 +267,8 @@ src/middleware/mav/CMakeFiles/mav.dir/mav.c.obj: \
 /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_sensor_airspeed_data.h:
 /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_gnss_recv_data.h:
 /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_manual_ctrl_hornet.h:
+/home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_esc_status.h:
+/home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/./mavlink_msg_lisum_propulsion_tb_status.h:
 /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/../common/common.h:
 /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/../common/./mavlink_msg_sys_status.h:
 /home/vuk/Documents/BTP/alex\ test/pwm_sync/esc/build/mavlink/lisum/../common/./mavlink_msg_system_time.h:

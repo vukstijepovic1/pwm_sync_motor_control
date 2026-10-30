@@ -199,6 +199,7 @@ program.elf: src/drivers/ms5607/libms5607.a
 program.elf: src/drivers/ms5611/libms5611.a
 program.elf: src/drivers/sd/libsd.a
 program.elf: src/drivers/ubx/libubx.a
+program.elf: src/drivers/ad7705/libad7705.a
 program.elf: src/libs/canopen/libcanopen.a
 program.elf: src/libs/Fusion/libFusion.a
 program.elf: src/libs/ring/libring.a

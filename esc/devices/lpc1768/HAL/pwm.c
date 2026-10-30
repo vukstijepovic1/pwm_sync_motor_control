@@ -198,6 +198,7 @@ void HAL_PWM_MatchUpdate(pwm_hal_instance_t instance, pwm_hal_channel_t channel,
 
 	lpcInstance = prvPWM_GetInstance(instance);
 
+	
 	PWM_MatchUpdate(lpcInstance, channel, matchValue, matchUpdate);
 }
 

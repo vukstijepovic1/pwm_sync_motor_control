@@ -147,7 +147,7 @@ uint16_t mav_send(mav_t *mav, const mavlink_message_t *msg)
 
 static uint16_t mav_on_recv(void *arg, uint8_t *buffer, uint16_t size)
 {
-	mavlink_status_t *status;
+	mavlink_status_t status;
 	mav_link_t *link;
 	mav_t *mav;
 
@@ -160,7 +160,7 @@ static uint16_t mav_on_recv(void *arg, uint8_t *buffer, uint16_t size)
 	for (uint32_t i = 0; i < size; i++) {
 		/* parse messages */
 		uint8_t ret =
-			mavlink_parse_char(link->chan, buffer[i], &link->msg, status);
+			mavlink_parse_char(link->chan, buffer[i], &link->msg, &status);
 		if (!ret)
 			continue;
 
